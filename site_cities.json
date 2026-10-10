@@ -1,0 +1,4 @@
+{
+  "minneapolis": {"name": "Minneapolis", "crosscheck": "99.97%"},
+  "saint-paul": {"name": "Saint Paul", "crosscheck": "97%"}
+}

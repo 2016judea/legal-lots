@@ -1,0 +1,5 @@
+out/
+site/.vercel/
+.vercel/
+__pycache__/
+.DS_Store
