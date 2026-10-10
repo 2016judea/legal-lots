@@ -1,1 +1,26 @@
-{}
+{
+ "c710abcd": {
+  "city": "saint-paul",
+  "hero_html": "<b>For Marcus Nordstrom, Exotics LLC.</b> The state's licence list has you at MICRO-L24-000052 (cultivation, issued 2026-09-18), with the retail site listed as <b>N/A</b>. If a storefront is ever on the table, this is every lot in Saint Paul where the city allows one. The first ten show who owns them.",
+  "name": "Marcus Nordstrom",
+  "business": "Exotics LLC"
+ },
+ "ad8183fc": {
+  "city": "saint-paul",
+  "hero_html": "<b>For Gabriel Basham, Lake Star LLC.</b> The state's licence list has you at MICRO-L25-000909 (cultivation, issued 2026-03-11; manufacturing added 2026-08-21), with the retail site listed as <b>N/A</b>. If a storefront is ever on the table, this is every lot in Saint Paul where the city allows one. The first ten show who owns them.",
+  "name": "Gabriel Basham",
+  "business": "Lake Star LLC"
+ },
+ "a9574250": {
+  "city": "minneapolis",
+  "hero_html": "<b>For Josh Wilken-Simon, Medicine Lake Enterprises Inc..</b> The state's licence list has you at MEZZO-L24-000306 (cultivation, issued 2026-08-03), with the retail site listed as <b>N/A</b>. If a storefront is ever on the table, this is every lot in Minneapolis where the city allows one. The first ten show who owns them.",
+  "name": "Josh Wilken-Simon",
+  "business": "Medicine Lake Enterprises Inc."
+ },
+ "393cd0bd": {
+  "city": "saint-paul",
+  "hero_html": "<b>For Joshua Dotson, JDMN Holdings LLC.</b> The state's licence list has you at MEZZO-L24-000260 (manufacturing, issued 2026-03-23), with the retail site listed as <b>N/A</b>. If a storefront is ever on the table, this is every lot in Saint Paul where the city allows one. The first ten show who owns them.",
+  "name": "Joshua Dotson",
+  "business": "JDMN Holdings LLC"
+ }
+}

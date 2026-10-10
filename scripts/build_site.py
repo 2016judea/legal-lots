@@ -3,15 +3,15 @@
     python3 scripts/build_site.py
 
 Free on the page: every legal storefront lot on a map and in a list, with zoning,
-lot size and years held. Paid ($900, Stripe): the same list with owner of record
-and mailing address, as CSV. Every number on a page is read from out/<city>/.
+lot size and years held. The full list (owner of record + mailing address, as CSV)
+goes by email. No price on any page: price is part of the negotiation with the
+buyer (Aidan 2026-10-10). Every number on a page is read from out/<city>/.
 """
 import csv, html, json, re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
-BUY = "https://buy.stripe.com/eVq4gycto2hP5W663L0Jq3H"
 TRACK = (SITE / "reader_events.js").read_text()
 CITIES = json.loads((ROOT / "site_cities.json").read_text())
 
@@ -98,7 +98,7 @@ def rule_sentence(rules):
     return f"zoned {zones}; " + "; ".join(bits)
 
 
-def city_page(slug, meta, rows, ll, summary, rules, hero=None):
+def city_page(slug, meta, rows, ll, summary, rules, hero=None, free=0):
     pts = []
     for r in rows:
         if r["pin"] not in ll:
@@ -106,8 +106,12 @@ def city_page(slug, meta, rows, ll, summary, rules, hero=None):
         la, lo = ll[r["pin"]]
         pts.append([la, lo, tidy(r["address"]) or f"Parcel {r['pin']} (no street address)", r["zoning"], int(float(r["lot_sqft"] or 0)),
                     int(r["years_held"]) if r["years_held"] else None,
-                    int(r["vacant"])])
+                    int(r["vacant"]), ""])
     pts.sort(key=lambda p: (p[2].startswith("Parcel "), not 2500 <= p[4] <= 40000, -(p[5] or 0)))
+    if free:
+        owners = {tidy(r["address"]) or f"Parcel {r['pin']} (no street address)": r["owner"].title() for r in rows}
+        for p in pts[:free]:
+            p[7] = owners.get(p[2], "")
     n = len(pts)
     vacant = sum(p[6] for p in pts)
     long_held = sum(1 for p in pts if p[5] and p[5] >= 20)
@@ -122,8 +126,7 @@ def city_page(slug, meta, rows, ll, summary, rules, hero=None):
 <h1>{html.escape(meta['name'])}: where a cannabis shop can legally open</h1>
 <div class=big>{n:,}</div>
 <p><b>commercial and industrial lots</b> pass {html.escape(meta['name'])}'s cannabis zoning today. {vacant:,} of them are vacant land. {long_held:,} have had the same owner for 20 years or more.</p>
-<a class=buy href="{BUY}?client_reference_id={slug}">Get all {n:,} with owner names and mailing addresses: $900</a>
-<p class="muted" style="text-align:center;font-size:14px">A spreadsheet, delivered by email within two business days.</p>
+<a class=buy href="mailto:aidan@brickandmortar.dev?subject={html.escape(meta['name'])}%20lots%3A%20full%20list">Want every owner's name and mailing address? Email me</a>
 <div id=map role=img aria-label="Map of legal lots"></div>
 <div class=filters aria-label=filter>
 <button class=chip aria-pressed=true data-f=all>All</button>
@@ -135,9 +138,9 @@ def city_page(slug, meta, rows, ll, summary, rules, hero=None):
 <ul class=list id=list></ul>
 <button class="chip more" id=more>Show more</button>
 <div class=note><b>How we decided.</b> A lot counts if it is {html.escape(rule_sentence(rules))}, measured property line to property line. Rules from {html.escape(rules['ordinance']['number'])}, read from the city code on {rules['as_of']}.{cross}</div>
-<h2>What the $900 list adds</h2>
+<h2>What the full list adds</h2>
 <p>For each lot: the owner of record, where the county mails their tax bill (the address you write to), building and lot size, what it was last valued at, how long they've owned it, and the nearest open cannabis store. Sort it any way you like.</p>
-<a class=buy href="{BUY}?client_reference_id={slug}">Get the {meta['name']} list: $900</a>
+<a class=buy href="mailto:aidan@brickandmortar.dev?subject={html.escape(meta['name'])}%20lots%3A%20full%20list">Email me for the {meta['name']} list</a>
 {FOOT}
 </div>
 <script>
@@ -154,7 +157,7 @@ var ul=document.getElementById('list');ul.innerHTML='';
 s.slice(0,shown).forEach(function(p){{var li=document.createElement('li');
 li.innerHTML='<span class=a></span><span>'+p[3]+'</span><span class=m></span>';
 li.querySelector('.a').textContent=p[2];
-li.querySelector('.m').textContent=p[4].toLocaleString()+' sq ft lot'+(p[6]?' · vacant':'')+(p[5]!=null?' · same owner '+p[5]+' yrs':'')+' · owner: in the full list';
+li.querySelector('.m').textContent=p[4].toLocaleString()+' sq ft lot'+(p[6]?' · vacant':'')+(p[5]!=null?' · same owner '+p[5]+' yrs':'')+' · owner: '+(p[7]||'in the full list');
 li.onclick=function(){{map.setView([p[0],p[1]],17)}};ul.appendChild(li)}});
 document.getElementById('more').style.display=s.length>shown?'block':'none'}}
 document.querySelectorAll('[data-f]').forEach(function(b){{b.onclick=function(){{f=b.dataset.f;shown=40;document.querySelectorAll('[data-f]').forEach(function(x){{x.setAttribute('aria-pressed',x===b)}});draw()}}}});
@@ -179,7 +182,7 @@ def main():
         slug = r["city"]
         rows, ll, summary, rules = load(slug)
         hero = f'<div class=note style="border-left-color:var(--accent)">{r["hero_html"]}</div>'
-        page, _ = city_page(slug, CITIES[slug], rows, ll, summary, rules, hero=hero)
+        page, _ = city_page(slug, CITIES[slug], rows, ll, summary, rules, hero=hero, free=10)
         page = page.replace("<head>", "<head><meta name=robots content=noindex>", 1)
         d = SITE / "for" / tok
         d.mkdir(parents=True, exist_ok=True)
