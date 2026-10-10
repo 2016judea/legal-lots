@@ -86,16 +86,39 @@ def load(slug):
 
 
 def rule_sentence(rules):
-    bits = []
+    names = {"k12": "K-12 school", "primary secondary school": "K-12 school", "school": "school",
+             "day care center": "day care", "day care in commercial district": "day care",
+             "residential treatment facility": "treatment facility", "park attraction": "park attraction for kids",
+             "existing cannabis business": "existing cannabis shop", "cannabis or hemp use": "cannabis or hemp shop"}
+    bits, seen = [], set()
     for b in rules["buffers"]:
-        what = b["sensitive_type"].replace("_", " ").replace("k12", "K-12").replace("primary secondary", "K-12")
+        t = b["sensitive_type"].replace("_", " ")
+        what = names.get(t, names.get(t.replace(" school", ""), t))
+        key = (what, b["distance_ft"])
+        if key in seen:
+            continue
+        seen.add(key)
         ex = f" (downtown {', '.join(b['exempt_districts'])} exempt)" if b.get("exempt_districts") else ""
-        bits.append(f"{b['distance_ft']:,} ft from a {what}{ex}")
+        bits.append(f"at least {b['distance_ft']:,} ft from {'an' if what[0] in 'aeiou' else 'a'} {what}{ex}")
     for t in rules.get("location_tests") or []:
         if t["type"] == "contiguous_area":
             bits.append(f"inside a {t['min_acres']}-acre block zoned for dispensaries")
-    zones = ", ".join(rules["allowed_districts"]["retail"])
-    return f"zoned {zones}; " + "; ".join(bits)
+    ad = rules["allowed_districts"]
+    def short(codes):
+        pd = [c for c in codes if c.startswith("PD-")]
+        rest = [c for c in codes if not c.startswith("PD-")]
+        return ", ".join(rest) + (f" and {len(pd)} planned-development zones" if pd else "")
+    if ad["retail"]:
+        zones = short(ad["retail"])
+        if ad.get("retail_conditional"):
+            zones += f" (or {short(ad['retail_conditional'])} with a conditional use permit)"
+    else:
+        zones = f"{short(ad['retail_conditional'])}, with a conditional use permit"
+    out = f"zoned {zones}"
+    out += ("; " + "; ".join(bits)) if bits else "; the city sets no distance buffers"
+    if rules.get("cap"):
+        out += f". The city caps stores at {rules['cap']}"
+    return out
 
 
 def city_page(slug, meta, rows, ll, summary, rules, hero=None, free=0):
@@ -137,7 +160,7 @@ def city_page(slug, meta, rows, ll, summary, rules, hero=None, free=0):
 <input type=search id=q placeholder="Search a street" aria-label="Search a street">
 <ul class=list id=list></ul>
 <button class="chip more" id=more>Show more</button>
-<div class=note><b>How we decided.</b> A lot counts if it is {html.escape(rule_sentence(rules))}, measured property line to property line. Rules from {html.escape(rules['ordinance']['number'])}, read from the city code on {rules['as_of']}.{cross}</div>
+<div class=note><b>How we decided.</b> A lot counts if it is {html.escape(rule_sentence(rules))}{', measured property line to property line' if rules['buffers'] else ''}. Rules from {html.escape(rules['ordinance']['number'])}, read from the city code on {rules['as_of']}.{cross}</div>
 <h2>What the full list adds</h2>
 <p>For each lot: the owner of record, where the county mails their tax bill (the address you write to), building and lot size, what it was last valued at, how long they've owned it, and the nearest open cannabis store. Sort it any way you like.</p>
 <a class=buy href="mailto:aidan@brickandmortar.dev?subject={html.escape(meta['name'])}%20lots%3A%20full%20list">Email me for the {meta['name']} list</a>

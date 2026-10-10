@@ -1,4 +1,8 @@
 {
   "minneapolis": {"name": "Minneapolis", "crosscheck": "99.97%"},
-  "saint-paul": {"name": "Saint Paul", "crosscheck": "97%"}
+  "saint-paul": {"name": "Saint Paul", "crosscheck": "97%"},
+  "bloomington": {"name": "Bloomington"},
+  "burnsville": {"name": "Burnsville"},
+  "apple-valley": {"name": "Apple Valley"},
+  "cottage-grove": {"name": "Cottage Grove"}
 }
