@@ -1,0 +1,134 @@
+{
+  "city": "Apple Valley",
+  "county": "Dakota",
+  "as_of": "2026-10-10",
+  "ordinance": {
+    "number": "Ord. 1131 (zoning s.155.320) and Ord. 1132 (registration ch.121), both passed 2024-10-24",
+    "adopted": "2024-10-24",
+    "code_version": "American Legal Publishing, Apple Valley Code of Ordinances (latest, read 2026-10-10)",
+    "url": "https://codelibrary.amlegal.com/codes/applevalley/latest/applevalley_mn/0-0-0-44372",
+    "registration_url": "https://codelibrary.amlegal.com/codes/applevalley/latest/applevalley_mn/0-0-0-43575",
+    "pd_designations_url": "https://codelibrary.amlegal.com/codes/applevalley/latest/applevalley_mn/0-0-0-17783",
+    "text": "data/raw/ordinances/apple_valley_155.320.txt; data/raw/ordinances/apple_valley_155.320_table.txt; data/raw/ordinances/apple_valley_ch121.txt; data/raw/ordinances/apple_valley_pd_r_zones.json",
+    "city_buffer_map": "https://www.applevalleymn.gov/DocumentCenter/View/21067/Cannabis-Buffer-Map (PDF, not used)"
+  },
+  "zoning_layer": {
+    "file": "data/raw/apple_valley_zoning_parcels.geojson",
+    "field": "ZONING",
+    "code_sql": "case when \"ZONING\" = 'PD' then 'PD-' || cast(\"PDNUMBER\" as varchar) || '-' || cast(\"PDZONE\" as varchar) else \"ZONING\" end"
+  },
+  "allowed_districts": {
+    "retail": [
+      "NCC",
+      "RB",
+      "SC",
+      "VB",
+      "PD-144-5",
+      "PD-244-1",
+      "PD-244-2",
+      "PD-290-2",
+      "PD-290-4",
+      "PD-341-4",
+      "PD-409-0",
+      "PD-409-1",
+      "PD-507-1",
+      "PD-507-6",
+      "PD-532-1",
+      "PD-532-2",
+      "PD-629-4",
+      "PD-632-7",
+      "PD-646-1",
+      "PD-646-2",
+      "PD-646-3",
+      "PD-679-2",
+      "PD-679-3",
+      "PD-703-5",
+      "PD-716-3",
+      "PD-739-2",
+      "PD-739-4"
+    ]
+  },
+  "district_conditions": {
+    "NCC|RB|SC|VB": "s.155.320(C) table, row 'Cannabis Retailer': P",
+    "PD": "s.155.320(C): 'PD-R' means 'Permitted in Planned Development districts (or zones therein) that permit freestanding or multi-tenant retail building stores and shops.'",
+    "UNVERIFIED": "which PD zones are PD-R is OUR reading of Appendix F (37 designations, read 2026-10-10), listed in data/raw/ordinances/apple_valley_pd_r_zones.json. Zones allowing only one narrow retail type (PD-167 gift shops, PD-541 auto parts, PD-1053 home improvement, PD-244 zone 4 furniture) and office-tenant retail (PD-290 zone 3) are NOT counted. The planning department decides PD-R per site."
+  },
+  "buffers": [
+    {
+      "sensitive_type": "k12_school",
+      "distance_ft": 1000,
+      "measured_from": "property line (UNVERIFIED for (a)-(b); (c) states property line to property line)",
+      "measured_to": "property line",
+      "whole_lot_rule": true,
+      "cite": "s.155.320(D)(3)(a) 'One thousand feet of an elementary or secondary school (K-12 grades)'",
+      "layer": "data/raw/mn_mde_school_program_locations_sy2025_26.geojson",
+      "where": "countyname in ('Dakota', 'Scott') and graderange is not null and (graderange like '%KG%' or regexp_matches(graderange, '[0-9]'))",
+      "name_field": "mdename"
+    },
+    {
+      "sensitive_type": "day_care_center",
+      "distance_ft": 500,
+      "measured_from": "property line",
+      "measured_to": "property line",
+      "whole_lot_rule": true,
+      "cite": "s.155.320(D)(3)(b) 'Five hundred feet of a state licensed day care center, including preschool programs'",
+      "layer": "data/raw/mn_child_care_mngeo.geojson",
+      "where": "license_type in ('Child Care Center', 'Certified Center') and city in ('Apple Valley', 'Burnsville', 'Lakeville', 'Rosemount', 'Eagan')",
+      "name_field": "name_of_program",
+      "UNVERIFIED": "family child care homes excluded (code says 'day care center'); DHS-certified centers included as 'preschool programs'. MnGeo vintage unknown."
+    },
+    {
+      "sensitive_type": "residential_treatment_facility",
+      "distance_ft": 500,
+      "measured_from": "property line",
+      "measured_to": "property line",
+      "whole_lot_rule": true,
+      "cite": "s.155.320(D)(3)(b) 'state licensed residential treatment facility'",
+      "layer": "data/raw/samhsa_residential_south_metro.geojson",
+      "name_field": "name",
+      "UNVERIFIED": "SAMHSA locator stands in for the DHS licence list; none found inside Apple Valley."
+    },
+    {
+      "sensitive_type": "park_attraction",
+      "distance_ft": 500,
+      "measured_from": "the attraction",
+      "measured_to": "property line",
+      "whole_lot_rule": true,
+      "cite": "s.155.320(D)(3)(b) 'an attraction within a public park that is regularly used by minors, including a playground or athletic field'",
+      "layer": "data/raw/osm_park_attractions_south_metro.geojson",
+      "where": "kind in ('playground', 'pitch', 'track')",
+      "name_field": "name",
+      "promote_points": false,
+      "UNVERIFIED": "OSM playgrounds/pitches/tracks inside Apple Valley, Dakota County and regional park polygons; completeness not guaranteed."
+    },
+    {
+      "sensitive_type": "existing_cannabis_business",
+      "distance_ft": 1000,
+      "measured_from": "nearest point on the property boundary line of the existing business",
+      "measured_to": "nearest property boundary line of the proposed business",
+      "whole_lot_rule": true,
+      "cite": "s.155.320(D)(3)(c) 'One thousand feet of an existing lawful cannabis business, measured by a line from the nearest point on the property boundary line of the property on which the existing business is located to the nearest property boundary line of the property on which a business is proposed to be located.'",
+      "layer": "data/raw/ocm_retail_sites_south_metro.geojson",
+      "where": "kind = 'cannabis_retail'",
+      "name_field": "name",
+      "UNVERIFIED": "hemp-only (LPHE) retailers are 'hemp businesses' in s.155.320(B), not 'cannabis businesses', so they are NOT buffered. Licensed cannabis sites with no street address (cultivators etc.) cannot be placed. City registrations not yet open with OCM are unknown."
+    }
+  ],
+  "location_tests": [],
+  "spacing_between_cannabis_ft": 1000,
+  "cap": 5,
+  "cap_note": "s.121.04 'No more than five cannabis retail businesses are allowed to operate within the city.'",
+  "registrations_issued": "UNVERIFIED; OCM list 2026-10-05 shows 0 licensed cannabis retail sites in Apple Valley",
+  "conditional_use_permit": false,
+  "other_rules": [
+    "existing registered retailer is not displaced if a school/day care/park attraction later opens within its buffer (s.155.320(D)(3)(d))",
+    "max two outdoor signs (s.155.320(E))",
+    "no on-site consumption except microbusiness endorsement (s.155.320(D)(4))"
+  ],
+  "sanity_check": {
+    "case": "The Tobacco Store/Shop, 14638 Cedar Ave #130 (an OCM LPHE retailer): setback variance denied 2025-11-25",
+    "parcel": "nearest county parcel to the Census geocode: 011665001020 (Cedar Market Place LLC); zoned PD-290 zone 4 per the city layer"
+  },
+  "planner_contact": "Community Development / Planning, 952-953-2575",
+  "notes": []
+}

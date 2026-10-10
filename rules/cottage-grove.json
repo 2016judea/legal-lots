@@ -1,0 +1,121 @@
+{
+  "city": "Cottage Grove",
+  "county": "Washington",
+  "as_of": "2026-10-10",
+  "ordinance": {
+    "number": "Ord. 1088 (2024-12-04); amended Ord. 1113 (2026-04-15)",
+    "adopted": "2024-12-04",
+    "code_version": "American Legal Publishing, Cottage Grove Code of Ordinances, 2026 S-8 (current)",
+    "url": "https://codelibrary.amlegal.com/codes/cottagegrovemn/latest/cottagegrove_mn/0-0-0-8583",
+    "use_table_url": "https://codelibrary.amlegal.com/codes/cottagegrovemn/latest/cottagegrove_mn/0-0-0-6909",
+    "text": "data/raw/ordinances/cottage_grove_11-4-18.txt; data/raw/ordinances/cottage_grove_11-8-2_use_table_cannabis_rows.txt"
+  },
+  "zoning_layer": {
+    "file": "data/raw/cottage_grove_zoning_parcels.geojson",
+    "field": "CurrentZoning",
+    "code_sql": "trim(split_part(\"CurrentZoning\", ',', 1))"
+  },
+  "allowed_districts": {
+    "retail": [],
+    "retail_conditional": [
+      "B-3",
+      "P-B",
+      "M-U"
+    ]
+  },
+  "district_conditions": {
+    "B-3|P-B|M-U": "s.11-8-2 use table row 'Cannabis retail': C (conditional use permit) in B-3, P-B, M-U; blank in B-1, B-2",
+    "AG|I": "s.11-4-18.G.4 'No retail sales are allowed in the Agricultural or Industrial zoning districts.'",
+    "UNVERIFIED": "the same use table also carries a row 'Cannabis or intoxicating CBD sales' marked P in B-3, P-B, M-U. The specific 'Cannabis retail' row (C) is used here; the 2025 Venus Creations application went through a CUP, which matches C. PUD overlays not modelled."
+  },
+  "buffers": [
+    {
+      "sensitive_type": "cannabis_or_hemp_use",
+      "distance_ft": 1000,
+      "measured_from": "storefront of the proposed cannabis or hemp retail use",
+      "measured_to": "property line of every other cannabis or lower-potency hemp edible use",
+      "whole_lot_rule": true,
+      "cite": "s.11-4-18.G.7: 'Distances ... are measured from the storefront of a cannabis or lower-potency hemp edible retail use to the property line of all other cannabis or lower-potency hemp edible uses.' G.7.a: 'There must be at least one thousand feet (1,000') between each cannabis or lower-potency hemp edible use.' G.7.e(2): on-sale/off-sale liquor stores selling hemp beverages are exempt and 'their use does not count against other cannabis and lower-potency hemp edible uses'.",
+      "layer": "data/raw/ocm_retail_sites_south_metro.geojson (OCM licensed list 2026-10-05, geocoded; liquor stores dropped)",
+      "where": "not liquor",
+      "name_field": "name",
+      "implementation_note": "measured from the candidate's lot line, not its storefront, so a lot is excluded if ANY part of it is within 1,000 ft (conservative; the storefront is always inside the lot). Existing uses are promoted to their whole parcel, as the code says.",
+      "UNVERIFIED": "OCM list carries no address for non-retail uses (Rise cultivation/manufacturing and the Hohensteins hemp warehouse are licensed in Cottage Grove with 'N/A'), so they cannot be placed. Liquor exemption is inferred from the business name. Uses across the city line (Woodbury, St Paul Park, Newport) are counted."
+    },
+    {
+      "sensitive_type": "school",
+      "distance_ft": 1000,
+      "measured_from": "property line of the school",
+      "measured_to": "the cannabis business",
+      "whole_lot_rule": true,
+      "cite": "s.11-4-18.G.7.b(1) 'More than one thousand feet (1,000') from a school as measured from property line of the school to the cannabis business'; SCHOOL = public school (M.S. 120A.05) or nonpublic school reporting under 120A.24 (s.11-4-18.C)",
+      "layer": "data/raw/mn_mde_school_program_locations_sy2025_26.geojson",
+      "where": "countyname in ('Washington', 'Dakota', 'Ramsey') and graderange is not null and (graderange like '%KG%' or regexp_matches(graderange, '[0-9]'))",
+      "name_field": "mdename",
+      "UNVERIFIED": "MDE program points include ALC, transition and district-program sites with K-12 grades; all are counted. 'to the cannabis business' read as the cannabis lot line."
+    },
+    {
+      "sensitive_type": "day_care_in_commercial_district",
+      "distance_ft": 500,
+      "measured_from": "property line of the day care",
+      "measured_to": "the cannabis business",
+      "whole_lot_rule": true,
+      "cite": "s.11-4-18.G.7.b(2) 'More than five hundred feet (500') from a day care that is in the B1, B2, B3, PB, or MU zoning district'; DAY CARE = 'A location licensed with the Minnesota Department of Human Services to provide the care of a child outside the child's own home' (s.11-4-18.C)",
+      "layer": "data/raw/mn_child_care_mngeo.geojson",
+      "where": "city in ('Cottage Grove')",
+      "name_field": "name_of_program",
+      "only_where_zoned": [
+        "B-1",
+        "B-2",
+        "B-3",
+        "P-B",
+        "M-U"
+      ],
+      "UNVERIFIED": "MnGeo child-care vintage unknown (hub migration 2026-09-17)."
+    },
+    {
+      "sensitive_type": "residential_treatment_facility",
+      "distance_ft": 500,
+      "measured_from": "property line of the facility",
+      "measured_to": "the cannabis business",
+      "whole_lot_rule": true,
+      "cite": "s.11-4-18.G.7.b(3); RESIDENTIAL TREATMENT FACILITY = 24-hour program licensed under Minn. R. 9520.0500-9520.0670 / ch. 245I (s.11-4-18.C)",
+      "layer": "data/raw/samhsa_residential_south_metro.geojson",
+      "name_field": "name",
+      "UNVERIFIED": "SAMHSA federal locator stands in for the DHS licence list (captcha-walled). No residential facility found within 12 km of Cottage Grove; a DHS-licensed IRTS not listed with SAMHSA would be missed."
+    },
+    {
+      "sensitive_type": "park_attraction",
+      "distance_ft": 500,
+      "measured_from": "location of the public park attraction",
+      "measured_to": "the cannabis business",
+      "whole_lot_rule": true,
+      "cite": "s.11-4-18.G.7.b(4) 'an attraction within a public park that is regularly used by minors, such as, but not limited to a playground, athletic field, athletic court, picnic area or permanent restrooms, pavilion or park building, disc golf features'",
+      "layer": "data/raw/osm_park_attractions_south_metro.geojson",
+      "name_field": "name",
+      "UNVERIFIED": "OpenStreetMap features clipped to the city's 2019 park polygons, Dakota County and Met Council regional parks; OSM completeness for small parks is not guaranteed.",
+      "promote_points": false
+    }
+  ],
+  "location_tests": [],
+  "spacing_between_cannabis_ft": 1000,
+  "spacing_note": "s.11-4-18.G.7.a counts hemp (LPHE) retailers too; G.7.e(1) exempts hemp retailers from G.7.b but not from G.7.a.",
+  "cap": null,
+  "cap_note": "no numeric cap found in s.11-4-18 or the use table. UNVERIFIED: Title 3 registration chapter not read.",
+  "registrations_issued": "UNVERIFIED; OCM list 2026-10-05 shows 1 cannabis retail site in Cottage Grove (Holstrum LLC, 8711 E Point Douglas Rd S)",
+  "conditional_use_permit": true,
+  "other_rules": [
+    "hours 10am-10pm, 7 days (s.11-4-18.G.1)",
+    "no cannabis use as part of an Adult Use Establishment (G.3)",
+    "max two signs; no blinking signs; no interior sign visible outside (G.8)",
+    "security plan approved by Director of Public Safety (G.10)"
+  ],
+  "sanity_check": {
+    "case": "Venus Creations LLC, 7430 80th St S: CUP denied 2025-12-15, reported 930 ft from a hemp retailer inside the 1,000-ft buffer",
+    "parcel": "0802721340020 (Oak Park Commons LLC, 7420 80th St S; Census geocode of 7430 80th St S falls inside it)"
+  },
+  "planner_contact": "Community Development, City of Cottage Grove, 12800 Ravine Pkwy S, 651-458-2800",
+  "notes": [
+    "UNVERIFIED reading of G.7.a: the one OCM-licensed cannabis shop in the city, Holstrum LLC (8711 E Point Douglas Rd S, parcel 2102721120012), sits ~9 ft from the Target parcel and ~270 ft from a Holiday, both OCM-licensed hemp (LPHE) retailers. Either it predates those hemp licences or the city does not count every hemp seller. This build counts every non-liquor LPHE retailer, which is the literal text and is what the city applied to Venus Creations (hemp shop Moon Soon Tobacco)."
+  ]
+}

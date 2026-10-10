@@ -1,0 +1,19 @@
+Guiding | Commercial | Industrial | PD | 
+Zoning District | NCC | LB | GB | RB | SC | VB | BP | I-1 | I-2 | PD | AG
+Cannabis Retailer | P |  |  | P | P | P |  |  |  | PD-R | 
+Cannabis Microbusiness |  |  |  |  |  |  | P* | P* | P* |  | 
+Cannabis Mezzobusiness |  |  |  |  |  |  | P* | P* | P* |  | 
+Cannabis Cultivator (indoor only) |  |  |  |  |  |  | P | P | P |  | 
+Cannabis Cultivator (outdoor) |  |  |  |  |  |  | P | P | P |  | P
+Cannabis Manufacturer |  |  |  |  |  |  | P | P | P |  | 
+Cannabis Wholesaler |  |  |  |  |  |  | P | P | P |  | 
+Cannabis Transporter |  |  |  |  |  |  | P | P | P |  | 
+Cannabis Testing Facility |  |  |  |  |  |  | P | P | P |  | 
+Cannabis Event Organizer Temporary Event | P |  |  | P | P | P |  |  |  |  | 
+Cannabis Delivery Service | P |  |  | P | P | P | P* | P* | P* |  | 
+Medical Cannabis Combination Business (retail location only) | P |  |  | P | P | P |  |  |  | PD-R | 
+Medical Cannabis Combination Business (cultivation and processing) |  |  |  |  |  |  | P* | P* | P* |  | 
+Lower-potency hemp edible manufacturer |  |  |  |  |  |  | P* | P* | P* |  | 
+Lower-potency hemp edible retailer | P | P | P | P | P | P |  |  |  | PD-R | 
+* Retail sale of its cultivated cannabis or manufactured cannabis products is a permitted accessory use, provided the business has retail operation endorsement under its state license and shall be subject to the accessory retail sales regulations for the applicable zoning district regulations as set forth elsewhere in this chapter. Note: “P” means Permitted; and “PD-R” means Permitted in Planned Development districts (or zones therein) that permit freestanding or multi-tenant retail building stores and shops.
+ |  |  |  |  |  |  |  |  |  |  | 

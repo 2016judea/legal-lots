@@ -1,0 +1,15 @@
+ | Commercial | Commercial | Commercial | Commercial | Commercial | Commercial | Industrial | Industrial | Industrial | Industrial | Industrial
+Zoning District | B-2 | B-3 | B-4 | MIX | TOD | CRD | I-1 | I-2 | I-3 | GIM | GIH
+Cannabis Retailer | P | P | P | P | P | P |  |  |  |  | CUP
+Cannabis Microbusiness | CUP | CUP | CUP | CUP | CUP | CUP | CUP | CUP | CUP | CUP | CUP
+Cannabis Mezzobusiness |  |  |  |  |  |  | CUP | CUP | CUP | CUP | CUP
+Cannabis Cultivator(Indoor only) |  |  |  |  |  |  | CUP | CUP |  |  | 
+Cannabis Manufacturer |  |  |  |  | CUP |  | P | P | P | P | P
+Cannabis Wholesaler |  | P | P |  |  |  | P | P | P | P | P
+Cannabis Testing Facility |  |  |  |  |  |  | P | P | P | P | P
+Medical Cannabis Cultivator (Indoor only) |  |  |  |  |  |  | CUP | CUP |  |  | 
+Medical Cannabis Processor |  |  |  |  |  |  | P | P | P | P | P
+Medical Cannabis Retailer | P | P | P | P | P | P |  |  |  |  | 
+Medical Cannabis Combination Business | CUP | CUP | CUP | CUP | CUP | CUP | CUP | CUP | CUP | CUP | CUP
+Lower-potency Hemp Edible Manufacturer |  |  |  |  |  |  | P | P | P | P | P
+Lower-potency Hemp Edible Retailer | P | P | P | P | P | P |  |  |  |  | CUP

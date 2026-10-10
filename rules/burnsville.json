@@ -1,0 +1,54 @@
+{
+  "city": "Burnsville",
+  "county": "Dakota",
+  "as_of": "2026-10-10",
+  "ordinance": {
+    "number": "Ord. 1619 (2024-12-17), City Code 10-7-53; registration Title 3 ch.3-10",
+    "adopted": "2024-12-17",
+    "code_version": "burnsville.municipalcodeonline.com (iCompass), read 2026-10-10",
+    "url": "https://burnsville.municipalcodeonline.com/book?type=ordinances#name=10-7-53-5:_Zoning",
+    "registration_url": "https://burnsville.municipalcodeonline.com/book?type=ordinances#name=CHAPTER_3-10_HEMP_AND_CANNABIS_RETAIL",
+    "city_page": "https://burnsvillemn.gov/2414/Cannabis-License",
+    "text": "data/raw/ordinances/burnsville_10-7-53.txt; data/raw/ordinances/burnsville_10-7-53-5_table.txt; data/raw/ordinances/burnsville_ch3-10.txt"
+  },
+  "zoning_layer": {
+    "file": "data/raw/burnsville_zoning_parcels.geojson",
+    "field": "ZONING"
+  },
+  "allowed_districts": {
+    "retail": [
+      "B2",
+      "B3",
+      "B4",
+      "B4-GW",
+      "MIX",
+      "TOD",
+      "CRD"
+    ],
+    "retail_conditional": [
+      "GIH"
+    ]
+  },
+  "district_conditions": {
+    "B-2|B-3|B-4|MIX|TOD|CRD": "10-7-53-5 table, row 'Cannabis Retailer': P",
+    "GIH": "10-7-53-5 table, row 'Cannabis Retailer': CUP",
+    "B4-GW": "the city layer writes B-4 inside the Gateway overlay as 'B4-GW'; counted as B-4. UNVERIFIED: Gateway overlay standards not read.",
+    "UNVERIFIED": "the layer carries a PUD flag (TEXTPUD); PUD conditions that narrow uses on a site are not modelled. The GIM-GW/GIM rows are not retail districts."
+  },
+  "buffers": [],
+  "location_tests": [],
+  "spacing_between_cannabis_ft": null,
+  "cap": null,
+  "cap_note": "city page: 'Burnsville does not have caps or buffers on cannabis businesses.' Chapter 3-10 sets none (read in full).",
+  "registrations_issued": "UNVERIFIED; OCM list 2026-10-05 shows cannabis retail at 14334 Burnhaven Dr (Green Goods) and 1100 Riverwood Dr (Great Northern Greens)",
+  "conditional_use_permit": "only in GIH",
+  "other_rules": [
+    "ventilation and filtration so cannabis odor does not escape (10-7-53-4)",
+    "city registration under Title 3 ch.3-10"
+  ],
+  "planner_contact": "Planning, 952-895-4455, burnsvilleplanning@burnsvillemn.gov; registration: Deputy City Clerk 952-895-4460",
+  "notes": [
+    "Minn. Stat. 342.13 buffer options (schools, day cares, treatment, parks) were not adopted",
+    "Only the 'Cannabis Retailer' row is modelled. A microbusiness or medical combination business with retail is CUP in every listed district including I-1..GIH (10-7-53-5 table): e.g. Great Northern Greens (micro, 1100 Riverwood Dr) operates in I1."
+  ]
+}

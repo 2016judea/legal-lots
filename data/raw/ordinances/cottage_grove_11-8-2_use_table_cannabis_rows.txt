@@ -1,0 +1,6 @@
+USE TYPE | B-1 | B-2 | B-3 | P-B | M-U
+Cannabis or intoxicating CBD sales |  |  | P | P | P
+Cannabis retail |  |  | C | C | C
+Lower-potency hemp edible retail beverages (associated with on-sale or off-sale liquor) | AC | AC | AC | AC | AC
+Lower-potency hemp edible retail (not associated with on-sale or off-sale liquor) |  |  | C | C | C
+Lower-potency hemp edible wholesale |  |  | C | C | C

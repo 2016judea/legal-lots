@@ -1,0 +1,114 @@
+{
+  "city": "Bloomington",
+  "county": "Hennepin",
+  "munic": "BLOOMINGTON",
+  "as_of": "2026-10-10",
+  "ordinance": {
+    "number": "Ord. 2024-21 (zoning, 2024-09-30), Ord. 2024-25 (registration, 2024-10-28), Ord. 2026-33R (2026-09-28)",
+    "adopted": "2024-09-30",
+    "code_version": "American Legal Publishing, Bloomington City Code (latest, carries Ord. 2026-33R passed 2026-09-28)",
+    "url": "https://codelibrary.amlegal.com/codes/bloomington/latest/bloomington_mn/0-0-0-110996",
+    "registration_url": "https://codelibrary.amlegal.com/codes/bloomington/latest/bloomington_mn/0-0-0-98344",
+    "use_table_url": "https://codelibrary.amlegal.com/codes/bloomington/latest/bloomington_mn/0-0-0-109730",
+    "text": "data/raw/ordinances/bloomington_21.302.22.txt; data/raw/ordinances/bloomington_14.277-14.286.txt; data/raw/ordinances/bloomington_21.209_retail_rows.txt; data/raw/ordinances/bloomington_21.209_table_key.txt; data/raw/ordinances/bloomington_21.205.06-08.txt; data/raw/ordinances/bloomington_21.207.03_HX-R.txt",
+    "city_map": "https://services6.arcgis.com/eXHnzGr3m1c2gSiA/arcgis/rest/services/Cannabis_License_Location_Map_WFL1/FeatureServer ('Proposed restrictions', edited 2024-08-02)"
+  },
+  "zoning_layer": {
+    "file": "data/raw/bloomington_zoning.geojson",
+    "field": "designation"
+  },
+  "allowed_districts": {
+    "retail": [
+      "B-2",
+      "B-4",
+      "C-2",
+      "C-3",
+      "C-5",
+      "TI",
+      "CX-2",
+      "LX",
+      "CR-1"
+    ],
+    "retail_conditional": [
+      "B-1",
+      "C-1",
+      "C-4",
+      "HX-R"
+    ]
+  },
+  "district_conditions": {
+    "zoning use type": "s.21.302.22(c): state licence 'Cannabis retailer' -> zoning use type 'Retail sales and services'",
+    "B-2|B-4|C-2|C-3|C-5|TI|CX-2|LX": "s.21.209 use tables, row 'Retail sales and services': P",
+    "CR-1": "s.21.205.06(b)(1) 'Retail shopping uses' are a permitted principal use (district has no use-table column)",
+    "B-1|C-1|C-4": "s.21.209 row 'Retail sales and services': L = limited use as defined in s.21.601 (listed here as approval=conditional)",
+    "UNVERIFIED": "CS-0.5/CS-1 (s.21.205.07) and CO-1 (s.21.205.08) allow only enumerated retail ('...drugs, sundry items... and similar retail stores') as limited/provisional uses; whether a cannabis retailer is 'similar' is the Issuing Authority's call (s.21.302.22(c) note) and no licensed shop sits in one, so those districts are NOT counted. PD overlays not modelled. s.21.601 'limited use' definition not read.",
+    "HX-R": "s.21.207.03(c)(1)(A) permits as a LIMITED use 'Retail uses for the sale of groceries, bakery goods, drugs, sundry items, gifts, books, recorded music, arts and crafts, plants and similar items'. Counted as conditional because the city has registered one: OCM-licensed Northern Dispensary operates at 8101 34th Ave S (parcel 0602723210014, HX-R)."
+  },
+  "buffers": [
+    {
+      "sensitive_type": "school",
+      "distance_ft": 1000,
+      "measured_from": "the premises' lot line (main entrance if in a shopping center or business development)",
+      "measured_to": "nearest point of the lot on which the school is located",
+      "whole_lot_rule": true,
+      "cite": "s.14.280(a) 'No retail registration under this code shall be granted to any location within 1,000 feet of a school, or within 300 feet of a residential treatment facility or park attraction.' (c) '...measured in a straight line from the premises' lot line to the nearest point of the lot on which the school or residential treatment facility is located. ... Measurements shall not extend across interstate highways I-494 or I-35W, or Minnesota State Aid Highway 77.' SCHOOL = public (M.S. 120A.05) or nonpublic (120A.24) school (s.14.277)",
+      "layer": "data/raw/bloomington_cannabis_school_parcels.geojson (city's 2024 school parcels)",
+      "name_field": "PID",
+      "barrier_layer": "data/raw/osm_bloomington_highway_barriers.geojson",
+      "implementation_note": "lot line used even for shopping centers (conservative: the main entrance is inside the lot)."
+    },
+    {
+      "sensitive_type": "school",
+      "distance_ft": 1000,
+      "measured_from": "lot line",
+      "measured_to": "school lot",
+      "whole_lot_rule": true,
+      "cite": "s.14.280(a),(c) as above; MDE SY2025-26 locations cross-check the city's 2024 layer",
+      "layer": "data/raw/mn_mde_school_program_locations_sy2025_26.geojson",
+      "where": "countyname in ('Hennepin', 'Dakota') and graderange is not null and (graderange like '%KG%' or regexp_matches(graderange, '[0-9]'))",
+      "name_field": "mdename",
+      "barrier_layer": "data/raw/osm_bloomington_highway_barriers.geojson"
+    },
+    {
+      "sensitive_type": "residential_treatment_facility",
+      "distance_ft": 300,
+      "measured_from": "lot line",
+      "measured_to": "lot of the facility",
+      "whole_lot_rule": true,
+      "cite": "s.14.280(a),(c); RESIDENTIAL TREATMENT FACILITY 'As defined under M.S. s.245.462, subd. 23' (s.14.277)",
+      "layer": "data/raw/bloomington_cannabis_res_treatment.geojson (city's 2024 layer, 2 parcels)",
+      "name_field": "SiteAddress",
+      "barrier_layer": "data/raw/osm_bloomington_highway_barriers.geojson",
+      "UNVERIFIED": "city layer dated 2024-05-17"
+    },
+    {
+      "sensitive_type": "park_attraction",
+      "distance_ft": 300,
+      "measured_from": "lot line",
+      "measured_to": "the attraction",
+      "whole_lot_rule": true,
+      "cite": "s.14.280(a); PARK ATTRACTION 'An attraction within a public park that is regularly used by minors, including, but not limited to a playground or athletic field.' (s.14.277). (c) names only school and treatment lots for the measurement; the city's own map buffers the attraction polygons.",
+      "layer": "data/raw/bloomington_cannabis_park_attractions.geojson (city's 2024 layer, 293 attractions)",
+      "name_field": "Park_Location",
+      "promote_points": false,
+      "barrier_layer": "data/raw/osm_bloomington_highway_barriers.geojson",
+      "UNVERIFIED": "city layer dated 2024-04-22 / 2024-08-02"
+    }
+  ],
+  "location_tests": [],
+  "spacing_between_cannabis_ft": null,
+  "cap": null,
+  "cap_note": "Division L (s.14.276-14.286) sets no numeric limit (read in full).",
+  "registrations_issued": "UNVERIFIED; OCM list 2026-10-05 shows 5 licensed cannabis retail sites in Bloomington",
+  "conditional_use_permit": false,
+  "other_rules": [
+    "hours 8am-10pm Mon-Sat, 10am-9pm Sun (s.14.281(a))",
+    "a lawfully registered location stays eligible if a school/treatment facility/park attraction later moves in (s.14.280(d))",
+    "lower-potency hemp edible retailers: 300 ft from schools only (s.14.280(b))",
+    "odor mitigation per s.10.25 (s.21.302.22(d))"
+  ],
+  "planner_contact": "Licensing (issuing authority) and Planning, City of Bloomington, 1800 W Old Shakopee Rd, 952-563-8920",
+  "notes": [
+    "day care buffers allowed by Minn. Stat. 342.13 were NOT adopted (the city's 2024 proposal map carried them)"
+  ]
+}

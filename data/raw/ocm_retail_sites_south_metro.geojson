@@ -1,0 +1,6147 @@
+{
+"type": "FeatureCollection",
+"crs": {
+"type": "name",
+"properties": {
+"name": "urn:ogc:def:crs:EPSG::26915"
+}
+},
+"source": "MN_OCM_licensed_businesses_100526_tcm1202-714418.xlsx + US Census batch geocoder (Public_AR_Current)",
+"unmatched": [
+"16085 Buck Hill Road, Lakeville, MN 55019",
+"12370 Point Douglas Drive S, Hastings, MN 55033",
+"3816 W 150th Street, Rosemount, MN 55068",
+"401 County Road 42, Burnsville, MN 55306",
+"369 W Market, Bloomington, MN 55425",
+"401 W 98 Street, Bloomington, MN 55420",
+"3784 W 150th Street, Rosemount, MN 55068",
+"2555 W 79th Street, Bloomington, MN 55431",
+"3792 W 150th Street, Rosemount, MN 55068",
+"30032 Afton Way, Shafer, MN 55074",
+"1140 Central Park Commons Drive, Eagan, MN 55121",
+"1031 S Portland Avenue, Bloomington, MN 55420",
+"726 W 98th Street, Bloomington, MN 55420",
+"629 W 98th Street, Bloomington, MN 55420",
+"3701 West Old Shakopee Road, Suite# 250 Bloomington, MN 55431"
+],
+"features": [
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483685.8316209197,
+4960112.23213261
+]
+},
+"properties": {
+"license": "MICRO-L25-001422",
+"license_type": "Microbusiness",
+"kind": "cannabis_retail",
+"name": "LIV CANNABIS LLC",
+"address": "1960 Cliff Lake Road, Unit# 123 Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "1960 CLIFF LAKE RD, EAGAN, MN, 55122",
+"lon": -93.206255472129,
+"lat": 44.794222513175
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+511885.15386974456,
+4954538.68063384
+]
+},
+"properties": {
+"license": "MEZZO-L24-000369",
+"license_type": "Mezzobusiness",
+"kind": "cannabis_retail",
+"name": "\nTippy's Dispensary",
+"address": "217 Ramsey Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "217 RAMSEY ST, HASTINGS, MN, 55033",
+"lon": -92.849869124117,
+"lat": 44.744135344041
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+475753.807102964,
+4963037.869343137
+]
+},
+"properties": {
+"license": "MICRO-L25-000814",
+"license_type": "Microbusiness",
+"kind": "cannabis_retail",
+"name": "THCHOUSE LLC",
+"address": "2100 Old Shakopee Road W, Bloomington, MN 55431",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "2100 W OLD SHAKOPEE RD, BLOOMINGTON, MN, 55431",
+"lon": -93.306676161622,
+"lat": 44.820334267238
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+501755.7590214567,
+4973287.718751229
+]
+},
+"properties": {
+"license": "DIS-L25-000045",
+"license_type": "Retail",
+"kind": "cannabis_retail",
+"name": "Pot Mamas",
+"address": "6445 Lake Road Terrace, Unit 100 Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "parcel:6445 Lake Road Terrace",
+"lon": -92.97775674858856,
+"lat": 44.91301441540576
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+481477.22165232117,
+4943569.172648021
+]
+},
+"properties": {
+"license": "MEZZO-L24-000300",
+"license_type": "Mezzobusiness",
+"kind": "cannabis_retail",
+"name": "MnLooN",
+"address": "8337 210th Street W, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "8337 210TH ST W, LAKEVILLE, MN, 55044",
+"lon": -93.233578142933,
+"lat": 44.645243158941
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482380.52796846506,
+4967358.394427926
+]
+},
+"properties": {
+"license": "MICRO-L25-000351",
+"license_type": "Microbusiness",
+"kind": "cannabis_retail",
+"name": "Northern Dispensary",
+"address": "8101 34th Avenue S, Suite# 100 Bloomington, MN 55425",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "8101 34TH AVE S, BLOOMINGTON, MN, 55425",
+"lon": -93.223009312917,
+"lat": 44.859422434628
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+479455.63954961655,
+4959173.4029497495
+]
+},
+"properties": {
+"license": "MICRO-L25-000350",
+"license_type": "Microbusiness",
+"kind": "cannabis_retail",
+"name": "Great Northern Greens LLC",
+"address": "1100 Riverwood Drive, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "parcel:1100 Riverwood Drive",
+"lon": -93.2596982144923,
+"lat": 44.78566190847714
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483385.2548499146,
+4959669.447523106
+]
+},
+"properties": {
+"license": "MICRO-L25-000673",
+"license_type": "Microbusiness",
+"kind": "cannabis_retail",
+"name": "Eagan Canna",
+"address": "2075 Cliff Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "2075 CLIFF RD, EAGAN, MN, 55122",
+"lon": -93.210041096652,
+"lat": 44.790229553464
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+473914.68542588985,
+4961951.653445526
+]
+},
+"properties": {
+"license": "DIS-L24-000274",
+"license_type": "Retail",
+"kind": "cannabis_retail",
+"name": "Kaine Collective LLC",
+"address": "3920 Old Shakopee Road W, Bloomington, MN 55437",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "3920 W OLD SHAKOPEE RD, BLOOMINGTON, MN, 55437",
+"lon": -93.329882030359,
+"lat": 44.810491242312
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+505604.3937607038,
+4962499.62460261
+]
+},
+"properties": {
+"license": "MICRO-L25-001459",
+"license_type": "Microbusiness",
+"kind": "cannabis_retail",
+"name": "Holstrum LLC",
+"address": "8711 E Point Douglas Road S, Unit# 108 Cottage Grove, MN 55016",
+"authority": "City of Cottage Grove",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "8711 E POINT DOUGLAS RD S, COTTAGE GROVE, MN, 55016",
+"lon": -92.929118700092,
+"lat": 44.815878633717
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+485741.4649933662,
+4964521.46849804
+]
+},
+"properties": {
+"license": "MICRO-L25-001203",
+"license_type": "Microbusiness",
+"kind": "cannabis_retail",
+"name": "Green Duck Dispensary",
+"address": "3390 Coachman Road, Suite# 210 Eagan, MN 55121",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "3390 COACHMAN RD, EAGAN, MN, 55121",
+"lon": -93.180390510488,
+"lat": 44.833959216283
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+507369.58478106494,
+4977008.919956632
+]
+},
+"properties": {
+"license": "MEZZO-L24-000306",
+"license_type": "Mezzobusiness",
+"kind": "cannabis_retail",
+"name": "Legacy Cannabis",
+"address": "9891 Hudson Place, Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "9891 HUDSON RD, WOODBURY, MN, 55125",
+"lon": -92.906582433894,
+"lat": 44.946476770702
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+511764.7744796554,
+4952253.22711277
+]
+},
+"properties": {
+"license": "MICRO-L25-001374",
+"license_type": "Microbusiness",
+"kind": "cannabis_retail",
+"name": "Green 2 Go",
+"address": "2103 Vermillion Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "2103 VERMILLION ST, HASTINGS, MN, 55033",
+"lon": -92.851442409901,
+"lat": 44.723562953238
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482760.0017732705,
+4951577.184951348
+]
+},
+"properties": {
+"license": "MEZZO-L24-000173",
+"license_type": "Mezzobusiness",
+"kind": "cannabis_retail",
+"name": "Legit Cannabis LLC",
+"address": "16000 S Cedar Avenue, Rosemount, MN 55068",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "16000 CEDAR AVE, ROSEMOUNT, MN, 55068",
+"lon": -93.217671761763,
+"lat": 44.717366158434
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+487033.48224291106,
+4964166.079813285
+]
+},
+"properties": {
+"license": "MDCMB-L25-000001",
+"license_type": "Medical Cannabis Combination Business",
+"kind": "cannabis_retail",
+"name": "Rise",
+"address": "1340 Town Centre Drive, Eagan, MN 55123",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "1340 TOWN CENTRE DR, EAGAN, MN, 55123",
+"lon": -93.164035670968,
+"lat": 44.830784600767
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476789.7788173722,
+4954396.677500855
+]
+},
+"properties": {
+"license": "MDCMB-L25-000002",
+"license_type": "Medical Cannabis Combination Business",
+"kind": "cannabis_retail",
+"name": "Green Goods",
+"address": "14334 Burnhaven Drive, Suite# 14334 Burnsville, MN 55306",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "14334 BURNHAVEN DR, BURNSVILLE, MN, 55306",
+"lon": -93.293178976531,
+"lat": 44.742579354926
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+472581.7664490028,
+4966538.653410037
+]
+},
+"properties": {
+"license": "MDCMB-L25-000002",
+"license_type": "Medical Cannabis Combination Business",
+"kind": "cannabis_retail",
+"name": "Green Goods",
+"address": "5232 W 84th Street, Bloomington, MN 55437",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "5232 W 84TH ST, BLOOMINGTON, MN, 55437",
+"lon": -93.34698586067,
+"lat": 44.85173361722
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+503621.9132018777,
+4976037.093608778
+]
+},
+"properties": {
+"license": "MDCMB-L25-000002",
+"license_type": "Medical Cannabis Combination Business",
+"kind": "cannabis_retail",
+"name": "Green Goods",
+"address": "803 Bielenberg Drive, Unit# F5 Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "803 BIELENBERG DR, WOODBURY, MN, 55125",
+"lon": -92.954095228411,
+"lat": 44.937757352644
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+473803.35559523857,
+4954845.023924646
+]
+},
+"properties": {
+"license": "MICRO-L25-000398",
+"license_type": "Microbusiness",
+"kind": "cannabis_retail",
+"name": "Green Leaf Depot",
+"address": "4126 Egan Drive, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "4126 EGAN DR, SAVAGE, MN, 55378",
+"lon": -93.330924294884,
+"lat": 44.746512384331
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477624.1825725254,
+4951195.117202009
+]
+},
+"properties": {
+"license": "MICRO-L24-000293",
+"license_type": "Microbusiness",
+"kind": "cannabis_retail",
+"name": "Green Box Cannabis",
+"address": "16350 Kenrick Loop, Suite# D Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "Retail",
+"geocoded": "16350 KENRICK LOOP, LAKEVILLE, MN, 55044",
+"lon": -93.282499048295,
+"lat": 44.713784685849
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+496455.6267170647,
+4966757.401500232
+]
+},
+"properties": {
+"license": "LPDIS-L26-000316",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "451 Beer",
+"address": "6530 Cahill Avenue E, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "6530 CAHILL AVE E, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.04485702572,
+"lat": 44.85422112928
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480915.69423474197,
+4966686.19794489
+]
+},
+"properties": {
+"license": "LPDIS-L26-000118",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cowboy Jacks",
+"address": "320 South Avenue, Bloomington, MN 55425",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "320 SOUTH AVE, BLOOMINGTON, MN, 55425",
+"lon": -93.241524230216,
+"lat": 44.853333563496
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477624.1683472753,
+4948603.361705239
+]
+},
+"properties": {
+"license": "LPDIS-L26-000262",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lakeville Tobacco & Vape",
+"address": "17648 Kenwood Trail, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "17648 KENWOOD TRL, LAKEVILLE, MN, 55044",
+"lon": -93.282385787972,
+"lat": 44.690452953217
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482631.5820791746,
+4953401.23289657
+]
+},
+"properties": {
+"license": "LPDIS-L26-000212",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Apple Valley Tobacco and Vape Inc.",
+"address": "7539 148th Street W, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7539 148TH ST W, APPLE VALLEY, MN, 55124",
+"lon": -93.219355220547,
+"lat": 44.733783675146
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+479414.4086577711,
+4953850.487352275
+]
+},
+"properties": {
+"license": "LPDIS-L26-000212",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Dragon Tobacco & Vape, Inc.",
+"address": "1040 County Road 42 E, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1040 CO RD 42 E, BURNSVILLE, MN, 55337",
+"lon": -93.260004395184,
+"lat": 44.737742710663
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+469623.23965238855,
+4961708.784306894
+]
+},
+"properties": {
+"license": "LPDIS-L26-000347",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "BLOOMINGTON LIQUOR STORE Inc",
+"address": "7700 W Old Shakopee Road, Bloomington, MN 55438",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7700 W OLD SHAKOPEE RD, BLOOMINGTON, MN, 55438",
+"lon": -93.384137184143,
+"lat": 44.808135275483
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483729.0041564058,
+4959455.672643517
+]
+},
+"properties": {
+"license": "LPDIS-L26-000008",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Ansari's Mediterranean Grill",
+"address": "1960 Rahncliff Court, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": true,
+"endorsements": "On-site consumption endorsement (LPHE)\nLPHE retailer operations endorsement",
+"geocoded": "1960 RAHN CLIFF CT, EAGAN, MN, 55122",
+"lon": -93.205688663185,
+"lat": 44.78831301816
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+503930.2314228745,
+4966224.872149604
+]
+},
+"properties": {
+"license": "LPDIS-L26-000238",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cottage Grove Holiday #3512",
+"address": "6921 Pine Arbor Drive, Cottage Grove, MN 55016",
+"authority": "City of Cottage Grove",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "6921 PINE ARBOR DR S, COTTAGE GROVE, MN, 55016",
+"lon": -92.950263742791,
+"lat": 44.849425193329
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+511656.41827127134,
+4953102.008042657
+]
+},
+"properties": {
+"license": "LPDIS-L26-000238",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Hastings Holiday #3563",
+"address": "1500 Vermillion Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1500 VERMILLION ST, HASTINGS, MN, 55033",
+"lon": -92.852791275294,
+"lat": 44.731205729887
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+502729.19157035,
+4974788.244397444
+]
+},
+"properties": {
+"license": "LPDIS-L26-000238",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Woodbury Holiday #3828",
+"address": "1569 Woodlane Drive, Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1569 WOODLANE DR, WOODBURY, MN, 55125",
+"lon": -92.965416486172,
+"lat": 44.926519158331
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+491486.58291149663,
+4961265.898241417
+]
+},
+"properties": {
+"license": "LPDIS-L26-000273",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Black Diamond Wine and Spirits",
+"address": "525 Diffley Road, Suite# 2050 Eagan, MN 55123",
+"authority": "City of Eagan",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "525 DIFFLEY RD, EAGAN, MN, 55123",
+"lon": -93.107652316769,
+"lat": 44.804743607429
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+495638.2854033818,
+4967919.035290782
+]
+},
+"properties": {
+"license": "LPDIS-L26-000018",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Smoke House Tobacco LLC",
+"address": "5828 Blaine Avenue E, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "5828 BLAINE AVE E, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.055211155978,
+"lat": 44.86467379424
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+473853.24837964046,
+4954831.370872591
+]
+},
+"properties": {
+"license": "LPDIS-L26-000250",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "42 Shop Plus LLC",
+"address": "3983 Egan Drive, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "3983 EGAN DR, SAVAGE, MN, 55378",
+"lon": -93.33029334401,
+"lat": 44.746391301591
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+475544.31675595266,
+4954831.193720258
+]
+},
+"properties": {
+"license": "LPDIS-L26-000309",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Infinite Vapor",
+"address": "2010 County Road 42 W, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "2010 CO RD 42 W, BURNSVILLE, MN, 55337",
+"lon": -93.308931590378,
+"lat": 44.746449488667
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477004.34973079443,
+4949523.007767014
+]
+},
+"properties": {
+"license": "LPDIS-L26-000248",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday/Circle K #2653852",
+"address": "17280 Kenyon Avenue, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "17280 KENYON AVE, LAKEVILLE, MN, 55044",
+"lon": -93.290249228744,
+"lat": 44.698712269881
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+496689.04791727086,
+4962764.674841257
+]
+},
+"properties": {
+"license": "LPDIS-L26-000295",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Yangs Liquors Inc",
+"address": "9084 Buchanan Trail, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "9084 BUCHANAN TRL, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.041876844207,
+"lat": 44.818278991689
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+488629.6859927284,
+4961263.397887822
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746068",
+"address": "1065 Diffley Road, Eagan, MN 55411",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1065 DIFFLEY RD, EAGAN, MN, 55123",
+"lon": -93.143777675972,
+"lat": 44.804681332995
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+498404.5644301888,
+4967107.319710582
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746071",
+"address": "6380 E Concord Boulevard, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "6380 CONCORD BLVD E, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.020192682641,
+"lat": 44.857378171547
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477207.79297164094,
+4966494.297334976
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746073",
+"address": "8401 S Lyndale Avenue, Bloomington, MN 55420",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8401 LYNDALE AVE S, BLOOMINGTON, MN, 55420",
+"lon": -93.288440949466,
+"lat": 44.851497186018
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477926.1805164918,
+4963750.511334147
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746102",
+"address": "50 98th Street W, Bloomington, MN 55420",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:50 98TH ST W",
+"lon": -93.27923036695076,
+"lat": 44.82682001919539
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476398.16685736406,
+4954911.261688357
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746213",
+"address": "14150 Irving Avenue S, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14150 IRVING AVE S, BURNSVILLE, MN, 55337",
+"lon": -93.298149351121,
+"lat": 44.747198943875
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+489204.9228382575,
+4953053.668965997
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746222",
+"address": "15066 Chippendale Avenue, Rosemount, MN 55068",
+"authority": "City of Rosemount",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "15066 CHIPPENDALE AVE W, ROSEMOUNT, MN, 55068",
+"lon": -93.136329870931,
+"lat": 44.730784068682
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482748.6825889821,
+4959491.913191323
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746232",
+"address": "4595 Nicols Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "4595 NICOLS RD, EAGAN, MN, 55122",
+"lon": -93.218082471515,
+"lat": 44.788616270996
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+472213.23765581864,
+4961649.063116722
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746245",
+"address": "5401 Old Shakopee Road W, Bloomington, MN 55437",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "5401 W OLD SHAKOPEE RD, BLOOMINGTON, MN, 55437",
+"lon": -93.351382074043,
+"lat": 44.807703128555
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+486760.4790432033,
+4963702.160658188
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746247",
+"address": "3615 Pilot Knob Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "3615 PILOT KNOB RD, EAGAN, MN, 55122",
+"lon": -93.167477246935,
+"lat": 44.826603313647
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+475584.3302657522,
+4965419.96929226
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746302",
+"address": "8920 Penn Avenue S, Bloomington, MN 55431",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8920 PENN AVE S, BLOOMINGTON, MN, 55431",
+"lon": -93.308934280797,
+"lat": 44.841772305999
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+485225.05680903007,
+4953358.445298925
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746316",
+"address": "5980 149th Street W, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "5980 149TH ST W, APPLE VALLEY, MN, 55124",
+"lon": -93.186599763948,
+"lat": 44.733456701515
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+490255.35069070203,
+4965911.744942633
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746318",
+"address": "3044 Holiday Lane, Eagan, MN 55121",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "3044 HOLIDAY LN, EAGAN, MN, 55121",
+"lon": -93.12331036655,
+"lat": 44.846550629512
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+470307.3791902341,
+4954836.816480272
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746330",
+"address": "7461 Egan Drive, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7461 EGAN DR, SAVAGE, MN, 55378",
+"lon": -93.375085207376,
+"lat": 44.74630199957
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483115.5498460875,
+4951507.902115245
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746333",
+"address": "7287 161st Street W, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:7287 161st Street West",
+"lon": -93.21318036248572,
+"lat": 44.716750920367346
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+472349.3841448711,
+4966737.489920911
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746337",
+"address": "8331 Normandale Boulevard, Bloomington, MN 55437",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8331 NORMANDALE BLVD, BLOOMINGTON, MN, 55437",
+"lon": -93.349937512157,
+"lat": 44.853514569082
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+502549.8769886369,
+4964329.135878971
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746374",
+"address": "8101 Hadley Avenue S, Cottage Grove, MN 55016",
+"authority": "City of Cottage Grove",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8101 HADLEY AVE S, COTTAGE GROVE, MN, 55016",
+"lon": -92.967741360411,
+"lat": 44.832365710241
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+486705.71539505955,
+4967150.839533878
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746400",
+"address": "2660 Eagan Woods Drive, Eagan, MN 55121",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "2660 EAGAN WOODS DR, EAGAN, MN, 55121",
+"lon": -93.168260332911,
+"lat": 44.857647779373
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+485242.10076460405,
+4961249.60334407
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746401",
+"address": "1650 Diffley Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1650 DIFFLEY RD, EAGAN, MN, 55122",
+"lon": -93.186613106418,
+"lat": 44.804495191383
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476954.14795203775,
+4957437.171074109
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746410",
+"address": "900 Burnsville Parkway W, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "900 W BURNSVILLE PKWY, BURNSVILLE, MN, 55337",
+"lon": -93.291240234261,
+"lat": 44.769955786371
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477961.7586506759,
+4958657.65558765
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746412",
+"address": "12290 Nicollet Avenue, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "12290 NICOLLET AVE, BURNSVILLE, MN, 55337",
+"lon": -93.278559598442,
+"lat": 44.780974564722
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+485805.4043754097,
+4959664.070339922
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746437",
+"address": "1579 Cliff Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1579 CLIFF RD, EAGAN, MN, 55122",
+"lon": -93.17944594483,
+"lat": 44.790233317138
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+496615.0318672,
+4966119.022929008
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746438",
+"address": "6976 Cahill Avenue, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "6976 CAHILL AVE E, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.042835360068,
+"lat": 44.848475117867
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+505446.50910545554,
+4962652.041975279
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746443",
+"address": "8610 East Point Douglas Road S, Cottage Grove, MN 55016",
+"authority": "City of Cottage Grove",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8610 E POINT DOUGLAS RD S, COTTAGE GROVE, MN, 55016",
+"lon": -92.93111390363,
+"lat": 44.817251948923
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+507683.5374593486,
+4973997.047568199
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746444",
+"address": "2030 Eagle Creek Lane, Woodbury, MN 55129",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "2030 EAGLE CREEK LN, WOODBURY, MN, 55129",
+"lon": -92.902648561195,
+"lat": 44.919360509763
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+470163.08724925003,
+4958179.3594173165
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746513",
+"address": "7800 126th Street, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:7800 126th  Street West",
+"lon": -93.377103589776,
+"lat": 44.77638593691436
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482762.2209049142,
+4952289.203993679
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746584",
+"address": "15550 Cedar Avenue, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "15550 CEDAR AVE, APPLE VALLEY, MN, 55124",
+"lon": -93.217667774916,
+"lat": 44.723776023965
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+507486.37008462247,
+4966042.64961339
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746585",
+"address": "7033 Jorgensen Lane S, Cottage Grove, MN 55016",
+"authority": "City of Cottage Grove",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7033 JORGENSEN LN S, COTTAGE GROVE, MN, 55016",
+"lon": -92.90526428711,
+"lat": 44.847756333301
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+493263.99402203824,
+4966031.495307707
+]
+},
+"properties": {
+"license": "LPDIS-L26-000241",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Holiday Stationstore #2746587",
+"address": "7020 Robert Trail S, Inver Grove Heights, MN 55077",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7020 S ROBERT TRL, INVER GROVE HEIGHTS, MN, 55077",
+"lon": -93.085240149159,
+"lat": 44.847663402326
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477184.9078692778,
+4965180.086508034
+]
+},
+"properties": {
+"license": "LPDIS-L26-000131",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Big Bottle Liquor",
+"address": "9056 Lyndale Avenue S, Bloomington, MN 55420",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "9056 LYNDALE AVE S, BLOOMINGTON, MN, 55420",
+"lon": -93.288671470673,
+"lat": 44.839665853319
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+506170.58684408205,
+4976898.124096511
+]
+},
+"properties": {
+"license": "LPDIS-L26-000225",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Crave Woodbury",
+"address": "9100 Hudson Road, Suite# 108 Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "On-site consumption endorsement (LPHE)",
+"geocoded": "9100 HUDSON RD, WOODBURY, MN, 55125",
+"lon": -92.921782386076,
+"lat": 44.945490806635
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480749.1838615354,
+4943714.457761442
+]
+},
+"properties": {
+"license": "LPDIS-L26-000173",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Baldys Tailgate Bar",
+"address": "20944 Holyoke Avenue, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "20944 HOLYOKE AVE, LAKEVILLE, MN, 55044",
+"lon": -93.242764306048,
+"lat": 44.646531929588
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483685.8316209197,
+4960112.23213261
+]
+},
+"properties": {
+"license": "LPDIS-L26-000167",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cliff Lake Tobacco",
+"address": "1960 Cliff Lake Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1960 CLIFF LAKE RD, EAGAN, MN, 55122",
+"lon": -93.206255472129,
+"lat": 44.794222513175
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480363.59996404126,
+4955847.226195084
+]
+},
+"properties": {
+"license": "LPDIS-L26-000044",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Perrier Wines & Liquor Burnsville",
+"address": "13720 County Road 11, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "13720 CO RD 11, BURNSVILLE, MN, 55337",
+"lon": -93.24809271268,
+"lat": 44.755744503817
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+507535.7178490071,
+4965946.966760315
+]
+},
+"properties": {
+"license": "LPDIS-L26-000186",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Grove Liquor",
+"address": "7155 Jorgensen Lane S, Suite# 150 Cottage Grove, MN 55016",
+"authority": "City of Cottage Grove",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:7155 Jorgensen Lane South",
+"lon": -92.90464124150785,
+"lat": 44.846894461590665
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+472616.51846637874,
+4966538.600389732
+]
+},
+"properties": {
+"license": "LPDIS-L26-000075",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Discover CBD of MN",
+"address": "5214 W 84th Street, Bloomington, MN 55437",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "5214 W 84TH ST, BLOOMINGTON, MN, 55437",
+"lon": -93.346546068787,
+"lat": 44.851734475285
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+472570.9346687367,
+4963608.983530244
+]
+},
+"properties": {
+"license": "LPDIS-L26-000029",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Haskell's",
+"address": "5155 98 Street, Bloomington, MN 55437",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "5155 W 98TH ST, BLOOMINGTON, MN, 55437",
+"lon": -93.346964627419,
+"lat": 44.825360261809
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476201.07684488763,
+4964185.754674389
+]
+},
+"properties": {
+"license": "LPDIS-L26-000049",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Nine Mile Brewing",
+"address": "9555 James Avenue S, Suite# 290 Bloomington, MN 55431",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "9555 JAMES AVE S, BLOOMINGTON, MN, 55431",
+"lon": -93.301072764822,
+"lat": 44.830682672607
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477196.10441092757,
+4966613.110865351
+]
+},
+"properties": {
+"license": "LPDIS-L26-000069",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "SID'S DISCOUNT LIQUOR",
+"address": "8348 Lyndale Avenue S, Bloomington, MN 55420",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8348 LYNDALE AVE S, BLOOMINGTON, MN, 55420",
+"lon": -93.288594210645,
+"lat": 44.85256637731
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+487409.3287343964,
+4964632.660817551
+]
+},
+"properties": {
+"license": "LPDIS-L25-001125",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lunds & Byerlys",
+"address": "1299 Promenade Place, Eagan, MN 55121",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1299 PROMENADE PL, EAGAN, MN, 55121",
+"lon": -93.159292534075,
+"lat": 44.834991566391
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+485832.55066242005,
+4951848.580879153
+]
+},
+"properties": {
+"license": "LPDIS-L25-001125",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lunds & Byerlys",
+"address": "15550 English Avenue, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "15550 ENGLISH AVE, APPLE VALLEY, MN, 55124",
+"lon": -93.17888557755,
+"lat": 44.71987670294
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+472564.6713095254,
+4963613.574235642
+]
+},
+"properties": {
+"license": "LPDIS-L25-001125",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lunds & Byerlys",
+"address": "5159 W 98th Street, Bloomington, MN 55437",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "5159 W 98TH ST, BLOOMINGTON, MN, 55437",
+"lon": -93.347044102435,
+"lat": 44.825401346788
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+502888.90337400034,
+4974804.953017269
+]
+},
+"properties": {
+"license": "LPDIS-L25-001125",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lunds & Byerlys",
+"address": "7050 Valley Creek Plaza, Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7050 VALLEY CREEK PLZ, WOODBURY, MN, 55125",
+"lon": -92.963392569984,
+"lat": 44.926668939241
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+487409.3287343964,
+4964632.660817551
+]
+},
+"properties": {
+"license": "LPDIS-L25-001149",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lunds & Byerlys Wines & Spirits",
+"address": "1299 Promenade Place, Eagan, MN 55121",
+"authority": "City of Eagan",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1299 PROMENADE PL, EAGAN, MN, 55121",
+"lon": -93.159292534075,
+"lat": 44.834991566391
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+478524.26384552545,
+4954169.26067158
+]
+},
+"properties": {
+"license": "LPDIS-L25-001149",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lunds & Byerlys Wines & Spirits",
+"address": "401 E County Road 42, Burnsville, MN 55306",
+"authority": "City of Burnsville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "401 CO RD 42 E, BURNSVILLE, MN, 55306",
+"lon": -93.271260580383,
+"lat": 44.740586235557
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+502888.90337400034,
+4974804.953017269
+]
+},
+"properties": {
+"license": "LPDIS-L25-001149",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lunds & Byerlys Wines & Spirits",
+"address": "7050 Valley Creek Plaza, Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7050 VALLEY CREEK PLZ, WOODBURY, MN, 55125",
+"lon": -92.963392569984,
+"lat": 44.926668939241
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+505236.9572748481,
+4974038.724755886
+]
+},
+"properties": {
+"license": "LPDIS-L25-001576",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kowalski's",
+"address": "8505 Valley Creek Road, Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8505 VALLEY CREEK RD, WOODBURY, MN, 55125",
+"lon": -92.933646599204,
+"lat": 44.919757906633
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480364.3828882351,
+4959061.206241665
+]
+},
+"properties": {
+"license": "LPDIS-L25-001138",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "BIG DISCOUNT LIQUOR",
+"address": "12100 County Road 11, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "12100 CO RD 11, BURNSVILLE, MN, 55337",
+"lon": -93.248206706723,
+"lat": 44.784677436679
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483431.35455124604,
+4962522.407597979
+]
+},
+"properties": {
+"license": "LPDIS-L25-001138",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "BIG DISCOUNT LIQUOR",
+"address": "3900 Cedar Grove Parkway, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "3900 CEDAR GROVE PKWY, EAGAN, MN, 55122",
+"lon": -93.209551267397,
+"lat": 44.815913479799
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482916.00469788356,
+4949141.064205718
+]
+},
+"properties": {
+"license": "LPDIS-L25-000794",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Family Chiropractic and Wellness PA",
+"address": "17502 Dodd Boulevard, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": " LPHE retailer operations endorsement",
+"geocoded": "17502 DODD BLVD, LAKEVILLE, MN, 55044",
+"lon": -93.215620658051,
+"lat": 44.695439137558
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482763.45776438527,
+4952673.754912088
+]
+},
+"properties": {
+"license": "LPDIS-L25-000672",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "15350 Cedar Avenue, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nDelivery Endorsement (LPHE)",
+"geocoded": "15350 CEDAR AVE, APPLE VALLEY, MN, 55124",
+"lon": -93.217665138291,
+"lat": 44.727237895137
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483872.5576365697,
+4960303.439817449
+]
+},
+"properties": {
+"license": "LPDIS-L25-000672",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "1940 Cliff Lake Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nDelivery Endorsement (LPHE)",
+"geocoded": "1940 CLIFF LAKE RD, EAGAN, MN, 55122",
+"lon": -93.203900823631,
+"lat": 44.795948040937
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480095.98784575623,
+4944960.109361568
+]
+},
+"properties": {
+"license": "LPDIS-L25-000672",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "20250 Heritage Drive, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nDelivery Endorsement (LPHE)",
+"geocoded": "20250 HERITAGE DR, LAKEVILLE, MN, 55044",
+"lon": -93.251049793661,
+"lat": 44.657727966807
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+478349.93985631544,
+4958093.873052445
+]
+},
+"properties": {
+"license": "LPDIS-L25-000672",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "300 E Travelers Trail, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nDelivery Endorsement (LPHE)",
+"geocoded": "300 E TRAVELERS TRL, BURNSVILLE, MN, 55337",
+"lon": -93.273629139611,
+"lat": 44.775911157677
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482898.4343583166,
+4948718.213189577
+]
+},
+"properties": {
+"license": "LPDIS-L25-000672",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "7435 W 179th Run, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nDelivery Endorsement (LPHE)",
+"geocoded": "7435 179TH ST W, LAKEVILLE, MN, 55044",
+"lon": -93.215828276266,
+"lat": 44.691632066572
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482760.24834361783,
+4951527.063838434
+]
+},
+"properties": {
+"license": "LPDIS-L25-000368",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Hideaway",
+"address": "16040 S Cedar Avenue, Rosemount, MN 55068",
+"authority": "City of Rosemount",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "16040 CEDAR AVE, ROSEMOUNT, MN, 55068",
+"lon": -93.217666957045,
+"lat": 44.716914958582
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482226.92004227027,
+4959667.592182364
+]
+},
+"properties": {
+"license": "LPDIS-L25-001053",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 179",
+"address": "4600 Slater Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "4600 SLATER RD, EAGAN, MN, 55122",
+"lon": -93.22468441661,
+"lat": 44.790184981385
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+511659.01004643884,
+4952922.562493849
+]
+},
+"properties": {
+"license": "LPDIS-L25-001053",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 249",
+"address": "1630 Vermillion Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1630 VERMILLION ST, HASTINGS, MN, 55033",
+"lon": -92.852762642441,
+"lat": 44.729590260704
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482707.03116207087,
+4949414.305725328
+]
+},
+"properties": {
+"license": "LPDIS-L25-001053",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 343",
+"address": "17388 Glacier Way, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:17388 Glacier Way",
+"lon": -93.21826737784087,
+"lat": 44.697893941224955
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+490113.39916110167,
+4965902.402886256
+]
+},
+"properties": {
+"license": "LPDIS-L25-001053",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 662",
+"address": "3145 Dodd Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "3145 DODD RD, EAGAN, MN, 55121",
+"lon": -93.125106457855,
+"lat": 44.846464577338
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+479951.226329873,
+4944818.120923921
+]
+},
+"properties": {
+"license": "LPDIS-L25-001053",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 692",
+"address": "20187 Dodd Boulevard, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "20187 DODD BLVD, LAKEVILLE, MN, 55044",
+"lon": -93.252870101138,
+"lat": 44.656445704521
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477885.52360144653,
+4951141.3295133
+]
+},
+"properties": {
+"license": "LPDIS-L25-001053",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 694",
+"address": "16260 Kenrick Avenue, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "16260 KENRICK AVE, LAKEVILLE, MN, 55044",
+"lon": -93.279197278131,
+"lat": 44.71330858806
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+489351.920909221,
+4953156.797612725
+]
+},
+"properties": {
+"license": "LPDIS-L25-001436",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Rosemount Liquor Mart",
+"address": "3440 W 150th Street, Rosemount, MN 55068",
+"authority": "City of Rosemount",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "3440 150TH ST W, ROSEMOUNT, MN, 55068",
+"lon": -93.134475604519,
+"lat": 44.73171466747
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+478004.9986016339,
+4967307.105230503
+]
+},
+"properties": {
+"license": "LPDIS-L25-001468",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "7/8 Liquors",
+"address": "7920 S Nicollet Avenue, Bloomington, MN 55420",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7920 NICOLLET AVE S, BLOOMINGTON, MN, 55420",
+"lon": -93.27838748932,
+"lat": 44.858839158066
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+488585.5247769088,
+4953048.61915906
+]
+},
+"properties": {
+"license": "LPDIS-L25-000034",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Top Ten Liquors",
+"address": "15047 Crestone Avenue, Rosemount, MN 55068",
+"authority": "City of Rosemount",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)\nInternal/external transport activity",
+"geocoded": "15047 CRESTONE AVE, ROSEMOUNT, MN, 55068",
+"lon": -93.144152045615,
+"lat": 44.730729003343
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+475777.7573230091,
+4967600.804278243
+]
+},
+"properties": {
+"license": "LPDIS-L25-000034",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Top Ten Liquors",
+"address": "7995 Southtown Drive, Bloomington, MN 55431",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)\nInternal/external transport activity",
+"geocoded": "7995 SOUTHTOWN DR, BLOOMINGTON, MN, 55431",
+"lon": -93.306590999816,
+"lat": 44.861410848697
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+505434.6864752205,
+4962645.278551257
+]
+},
+"properties": {
+"license": "LPDIS-L25-000034",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Top Ten Liquors",
+"address": "8617 S East Point Douglas Road, Cottage Grove, MN 55016",
+"authority": "City of Cottage Grove",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)\nInternal/external transport activity",
+"geocoded": "8617 E POINT DOUGLAS RD S, COTTAGE GROVE, MN, 55016",
+"lon": -92.931263505551,
+"lat": 44.817191153254
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+507503.5407129091,
+4977010.761406869
+]
+},
+"properties": {
+"license": "LPDIS-L25-000034",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Top Ten Liquors",
+"address": "9887 Norma Lane, Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)\nInternal/external transport activity",
+"geocoded": "9887 NORMA LN, WOODBURY, MN, 55125",
+"lon": -92.904884370552,
+"lat": 44.946491945864
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477288.3443600361,
+4953196.552076635
+]
+},
+"properties": {
+"license": "LPDIS-L25-000238",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 309",
+"address": "501 W Crystal Lake Road, Burnsville, MN 55306",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": " LPHE retailer operations endorsement",
+"geocoded": "501 CRYSTAL LAKE RD W, BURNSVILLE, MN, 55306",
+"lon": -93.286828030807,
+"lat": 44.731791542383
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+487595.19266545365,
+4952991.062977025
+]
+},
+"properties": {
+"license": "LPDIS-L25-000238",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 397",
+"address": "15065 Dodd Boulevard, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": " LPHE retailer operations endorsement",
+"geocoded": "15065 DODD BLVD, APPLE VALLEY, MN, 55124",
+"lon": -93.156657388215,
+"lat": 44.730194393489
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482701.5498319296,
+4954008.120253686
+]
+},
+"properties": {
+"license": "LPDIS-L25-000238",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 406",
+"address": "7545 W 145th Street, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": " LPHE retailer operations endorsement",
+"geocoded": "7545 145TH ST W, APPLE VALLEY, MN, 55124",
+"lon": -93.218492138547,
+"lat": 44.739248738024
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+484034.5229090016,
+4953302.1349453665
+]
+},
+"properties": {
+"license": "LPDIS-L25-000238",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 421",
+"address": "14941 Florence Trail, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": " LPHE retailer operations endorsement",
+"geocoded": "14941 FLORENCE TRL, APPLE VALLEY, MN, 55124",
+"lon": -93.201633730238,
+"lat": 44.732924223097
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+475909.1203075775,
+4955999.908726534
+]
+},
+"properties": {
+"license": "LPDIS-L25-000238",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 585",
+"address": "1945 W 136th Street, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": " LPHE retailer operations endorsement",
+"geocoded": "1945 136TH ST W, BURNSVILLE, MN, 55337",
+"lon": -93.304378564262,
+"lat": 44.756982859025
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480451.0454790765,
+4955899.054093501
+]
+},
+"properties": {
+"license": "LPDIS-L25-000238",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 695",
+"address": "13357 Palomino Drive, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": " LPHE retailer operations endorsement",
+"geocoded": "13357 PALOMINO DR, APPLE VALLEY, MN, 55124",
+"lon": -93.246989895119,
+"lat": 44.756213465093
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+470106.8100186827,
+4954573.94933683
+]
+},
+"properties": {
+"license": "LPDIS-L25-000423",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Target",
+"address": "14333 MN-13, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:14333 Highway 13  South",
+"lon": -93.37760339121951,
+"lat": 44.74392728499949
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482764.4579498905,
+4952981.015606454
+]
+},
+"properties": {
+"license": "LPDIS-L25-000423",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Target",
+"address": "15150 Cedar Avenue, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "15150 CEDAR AVE, APPLE VALLEY, MN, 55124",
+"lon": -93.217662881403,
+"lat": 44.730003969583
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+486000.9640987491,
+4952262.09476052
+]
+},
+"properties": {
+"license": "LPDIS-L25-000423",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Target",
+"address": "15560 Pilot Knob Road, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "15560 PILOT KNOB RD, APPLE VALLEY, MN, 55124",
+"lon": -93.176770447253,
+"lat": 44.723602600068
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477096.58356776484,
+4947823.196068406
+]
+},
+"properties": {
+"license": "LPDIS-L25-000423",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Target",
+"address": "18275 Kenrick Avenue, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "18275 KENRICK AVE, LAKEVILLE, MN, 55044",
+"lon": -93.289008965212,
+"lat": 44.683413005325
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483684.3849252274,
+4960020.266950799
+]
+},
+"properties": {
+"license": "LPDIS-L25-000423",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Target",
+"address": "2000 Cliff Lake Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "2000 CLIFF LAKE RD, EAGAN, MN, 55122",
+"lon": -93.206270813045,
+"lat": 44.793394591636
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+507232.884320434,
+4976270.319918258
+]
+},
+"properties": {
+"license": "LPDIS-L25-000423",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Target",
+"address": "449 Commerce Drive, Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:449 Commerce Drive",
+"lon": -92.90832584197113,
+"lat": 44.93982929331457
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+503038.28401653195,
+4974936.875258373
+]
+},
+"properties": {
+"license": "LPDIS-L25-000423",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Target",
+"address": "7200 Valley Creek Plaza, Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7200 VALLEY CREEK PLZ, WOODBURY, MN, 55125",
+"lon": -92.961498864562,
+"lat": 44.927855886123
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+493061.25250204926,
+4964896.800598969
+]
+},
+"properties": {
+"license": "LPDIS-L25-000423",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Target",
+"address": "7841 Amana Trail, Inver Grove Heights, MN 55077",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7841 AMANA TRL, INVER GROVE HEIGHTS, MN, 55077",
+"lon": -93.087790205235,
+"lat": 44.837446748793
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477096.11716646614,
+4954836.236933465
+]
+},
+"properties": {
+"license": "LPDIS-L25-000423",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Target",
+"address": "810 W County Road 42, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "810 CO RD 42 W, BURNSVILLE, MN, 55337",
+"lon": -93.289329262465,
+"lat": 44.74654623176
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+505561.2387138514,
+4962587.138182274
+]
+},
+"properties": {
+"license": "LPDIS-L25-000423",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Target",
+"address": "8655 E Point Douglas Road S, Cottage Grove, MN 55016",
+"authority": "City of Cottage Grove",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8655 E POINT DOUGLAS RD S, COTTAGE GROVE, MN, 55016",
+"lon": -92.929663543366,
+"lat": 44.816666786882
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+493156.77061691164,
+4954078.465406971
+]
+},
+"properties": {
+"license": "LPDIS-L25-001105",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 1757",
+"address": "1030 W Upper 144th Street, Rosemount, MN 55068",
+"authority": "City of Rosemount",
+"liquor": false,
+"endorsements": " LPHE retailer operations endorsement",
+"geocoded": "parcel:1030 Upper 144th Street West",
+"lon": -93.08643622436976,
+"lat": 44.74005830011495
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+507782.7794021802,
+4976841.1458693985
+]
+},
+"properties": {
+"license": "LPDIS-L25-001105",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 407",
+"address": "10100 Hudson Road, Woodbury, MN 55129",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": " LPHE retailer operations endorsement",
+"geocoded": "10100 HUDSON RD, WOODBURY, MN, 55129",
+"lon": -92.901347333503,
+"lat": 44.944962064029
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+505129.1888843313,
+4974274.661116857
+]
+},
+"properties": {
+"license": "LPDIS-L25-001105",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 408",
+"address": "8477 City Centre Drive, Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": " LPHE retailer operations endorsement",
+"geocoded": "parcel:8477 City Centre Drive",
+"lon": -92.93500965317453,
+"lat": 44.92188260191982
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+472185.6246218462,
+4954965.231306412
+]
+},
+"properties": {
+"license": "LPDIS-L25-001105",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 663",
+"address": "14175 S Vernon Avenue, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": false,
+"endorsements": " LPHE retailer operations endorsement",
+"geocoded": "14175 VERNON AVE S, SAVAGE, MN, 55378",
+"lon": -93.351366167142,
+"lat": 44.747533468575
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+490016.31270530826,
+4953495.473833669
+]
+},
+"properties": {
+"license": "LPDIS-L25-001105",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Kwik Trip 697",
+"address": "14810 S Robert Trail, Rosemount, MN 55068",
+"authority": "City of Rosemount",
+"liquor": false,
+"endorsements": " LPHE retailer operations endorsement",
+"geocoded": "14810 ROBERT TRL S, ROSEMOUNT, MN, 55068",
+"lon": -93.126091583043,
+"lat": 44.73477311319
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+512045.55838525033,
+4951329.831992855
+]
+},
+"properties": {
+"license": "LPDIS-L25-001596",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Coborn's",
+"address": "225 W 33rd Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "225 33RD ST W, HASTINGS, MN, 55033",
+"lon": -92.847918650627,
+"lat": 44.715245569928
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+512045.55838525033,
+4951329.831992855
+]
+},
+"properties": {
+"license": "LPDIS-L25-001596",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Coborn's",
+"address": "225 W 33rd Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "225 33RD ST W, HASTINGS, MN, 55033",
+"lon": -92.847918650627,
+"lat": 44.715245569928
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+475905.7051326853,
+4967171.808682015
+]
+},
+"properties": {
+"license": "LPDIS-L25-000562",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Liquor Locker",
+"address": "8090 S Morgan Circle, Bloomington, MN 55431",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8090 MORGAN CIR S, BLOOMINGTON, MN, 55431",
+"lon": -93.304951148691,
+"lat": 44.857553357061
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+469682.78870291595,
+4954850.400518622
+]
+},
+"properties": {
+"license": "LPDIS-L25-001537",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Marketplace Liquor",
+"address": "8200 Egan Drive, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)\nInternal/external transport activity\nDelivery Endorsement (LPHE)",
+"geocoded": "8200 EGAN DR, SAVAGE, MN, 55378",
+"lon": -93.382975836456,
+"lat": 44.746398099874
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+471862.40196329233,
+4954873.852333085
+]
+},
+"properties": {
+"license": "LPDIS-L25-001537",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Savage Wine and Spirits",
+"address": "6100 Egan Drive, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)\nInternal/external transport activity\nDelivery Endorsement (LPHE)",
+"geocoded": "6100 EGAN DR, SAVAGE, MN, 55378",
+"lon": -93.355444170532,
+"lat": 44.746698226146
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+491486.58291149663,
+4961265.898241417
+]
+},
+"properties": {
+"license": "LPDIS-L25-001410",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Diffley Smoke Shop Plus",
+"address": "525 Diffley Road, Suite# 1030 Eagan, MN 55123",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "525 DIFFLEY RD, EAGAN, MN, 55123",
+"lon": -93.107652316769,
+"lat": 44.804743607429
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+469923.277405625,
+4955038.356568175
+]
+},
+"properties": {
+"license": "LPDIS-L25-000699",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Fresh Thyme Market",
+"address": "14100 S 13 Highway, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14100 STATE HWY 13, SAVAGE, MN, 55378",
+"lon": -93.379949064171,
+"lat": 44.748100251132
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483692.5626950827,
+4953443.543428562
+]
+},
+"properties": {
+"license": "LPDIS-L25-000699",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Fresh Thyme Market",
+"address": "14880 Florence Trail, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14880 FLORENCE TRL, APPLE VALLEY, MN, 55124",
+"lon": -93.205956958943,
+"lat": 44.734189517014
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+475619.29550351313,
+4967203.576352367
+]
+},
+"properties": {
+"license": "LPDIS-L25-000699",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Fresh Thyme Market",
+"address": "2100 W 80 1/2 Street, Bloomington, MN 55431",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "2100 W 80 1/2 ST, BLOOMINGTON, MN, 55431",
+"lon": -93.308577587574,
+"lat": 44.857829593529
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+496659.2587574606,
+4964758.282171432
+]
+},
+"properties": {
+"license": "LPDIS-L25-000977",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Wine & Spirits",
+"address": "7804 Cahill Avenue, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7804 CAHILL AVE E, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.042266729887,
+"lat": 44.836225701057
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+473487.4943850203,
+4958371.268193379
+]
+},
+"properties": {
+"license": "LPDIS-L25-001083",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Savage Super USA",
+"address": "4301 W Highway 13, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:4301 Highway 13  West",
+"lon": -93.3350977360576,
+"lat": 44.77824452999609
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+469623.23965238855,
+4961708.784306894
+]
+},
+"properties": {
+"license": "LPDIS-L25-001318",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Perrier Wines & Liquors",
+"address": "7700 W Old Shakopee Road, Suite# 150 Bloomington, MN 55437",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "7700 W OLD SHAKOPEE RD, BLOOMINGTON, MN, 55438",
+"lon": -93.384137184143,
+"lat": 44.808135275483
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477476.0057603899,
+4948883.775702659
+]
+},
+"properties": {
+"license": "LPDIS-L25-001454",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Mainstream CBD",
+"address": "17677 Kenwood Trail, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nInternal/external transport activity\nDelivery Endorsement (LPHE)",
+"geocoded": "17677 KENWOOD TRL, LAKEVILLE, MN, 55044",
+"lon": -93.284267943594,
+"lat": 44.692972686805
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+486009.35586887226,
+4954681.4769056905
+]
+},
+"properties": {
+"license": "LPDIS-L25-001804",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "The Daily Dose Apple Valley LLC",
+"address": "14050 Pilot Knob Road, Suite# 106 Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14050 PILOT KNOB RD, APPLE VALLEY, MN, 55124",
+"lon": -93.176730805704,
+"lat": 44.745382778837
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+511658.7831257329,
+4953321.593362219
+]
+},
+"properties": {
+"license": "LPDIS-L25-000744",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "H Tobacco",
+"address": "1310 Vermillion Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1310 VERMILLION ST, HASTINGS, MN, 55033",
+"lon": -92.852756393993,
+"lat": 44.733182468978
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+495625.8529257056,
+4968048.262078396
+]
+},
+"properties": {
+"license": "LPDIS-L25-000310",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Vapour Shop LLC",
+"address": "5747 NE Blaine Avenue, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "5747 BLAINE AVE E, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.055369642987,
+"lat": 44.865837035195
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476239.35706938565,
+4954830.416946109
+]
+},
+"properties": {
+"license": "LPDIS-L25-001038",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Smokeless",
+"address": "1607 W County Road 42, Burnsville, MN 55306",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nInternal/external transport activity\nDelivery Endorsement (LPHE)",
+"geocoded": "1607 CO RD 42 W, BURNSVILLE, MN, 55306",
+"lon": -93.300151716668,
+"lat": 44.746465908153
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+505149.7260782695,
+4974345.540406451
+]
+},
+"properties": {
+"license": "LPDIS-L25-001038",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Smokeless",
+"address": "8470 City Centre Drive, Unit# A1 Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nInternal/external transport activity\nDelivery Endorsement (LPHE)",
+"geocoded": "8470 CITY CENTRE DR, WOODBURY, MN, 55125",
+"lon": -92.934748710749,
+"lat": 44.922520512055
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477204.1613326881,
+4966174.852034238
+]
+},
+"properties": {
+"license": "LPDIS-L25-001038",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Smokeless",
+"address": "8563 S Lyndale Avenue, Bloomington, MN 55420",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nInternal/external transport activity\nDelivery Endorsement (LPHE)",
+"geocoded": "8563 LYNDALE AVE S, BLOOMINGTON, MN, 55420",
+"lon": -93.288472553513,
+"lat": 44.848621407312
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+504937.1904757598,
+4976530.9211962875
+]
+},
+"properties": {
+"license": "LPDIS-L25-001388",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Tailor Made Nutrition",
+"address": "8160 Coller Way, Suite# A Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8160 COLLER WAY, WOODBURY, MN, 55125",
+"lon": -92.937420350365,
+"lat": 44.942194879771
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477510.5649132913,
+4955223.881495876
+]
+},
+"properties": {
+"license": "LPDIS-L25-001788",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Love is an Ingredient",
+"address": "13953 Grand Avenue, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nInternal/external transport activity\nDelivery Endorsement (LPHE)",
+"geocoded": "13953 GRAND AVE, BURNSVILLE, MN, 55337",
+"lon": -93.284110983421,
+"lat": 44.750049034519
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+469239.97401629674,
+4957437.163819899
+]
+},
+"properties": {
+"license": "LPDIS-L25-001522",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "The Savage Tap",
+"address": "12925 Eagle Creek Parkway, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "12925 EAGLE CREEK PKWY, SAVAGE, MN, 55378",
+"lon": -93.388725571548,
+"lat": 44.769665514203
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+499935.3968766863,
+4969037.622061013
+]
+},
+"properties": {
+"license": "LPDIS-L25-000582",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Newport Smoke Shop",
+"address": "1668 Hastings Avenue, Newport, MN 55055",
+"authority": "City of Newport",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1668 HASTINGS AVE, NEWPORT, MN, 55055",
+"lon": -93.000817897603,
+"lat": 44.874756804045
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+473824.54056442995,
+4967360.245099822
+]
+},
+"properties": {
+"license": "LPDIS-L25-000817",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Total Wine & More",
+"address": "4200 W 78th Street, Bloomington, MN 55435",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "4200 W 78TH ST, BLOOMINGTON, MN, 55435",
+"lon": -93.331300859955,
+"lat": 44.859176291091
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+502961.0548453618,
+4974947.938201023
+]
+},
+"properties": {
+"license": "LPDIS-L25-000808",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Total Wine & More",
+"address": "7150 Valley Creek Plaza, Suite# 210 Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7150 VALLEY CREEK PLZ, WOODBURY, MN, 55125",
+"lon": -92.962477447579,
+"lat": 44.927955800896
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477087.40697170276,
+4954836.352357109
+]
+},
+"properties": {
+"license": "LPDIS-L25-000808",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Total Wine & More",
+"address": "820 W County Road 42, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "820 CO RD 42 W, BURNSVILLE, MN, 55337",
+"lon": -93.289439296249,
+"lat": 44.746546992031
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+475643.8485543508,
+4957896.826318899
+]
+},
+"properties": {
+"license": "LPDIS-L25-000072",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Fantasy Gifts",
+"address": "2125 W 13 Highway, Suite# 100 Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nInternal/external transport activity",
+"geocoded": "parcel:2125 Highway 13 West",
+"lon": -93.30782079217737,
+"lat": 44.774050248632335
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+475940.71162920585,
+4967607.505476843
+]
+},
+"properties": {
+"license": "LPDIS-L25-000827",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Oxboro Market & Cigar Place Inc",
+"address": "7907 Southtown Circle, Bloomington, MN 55431",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7907 SOUTHTOWN DR, BLOOMINGTON, MN, 55431",
+"lon": -93.304528766611,
+"lat": 44.861476691442
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+473537.8489520321,
+4967195.458771428
+]
+},
+"properties": {
+"license": "LPDIS-L25-001001",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Hilton Minneapolis/Bloomington",
+"address": "3900 W American Boulevard, Bloomington, MN 55437",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "3900 AMERICAN BLVD W, BLOOMINGTON, MN, 55437",
+"lon": -93.334920833374,
+"lat": 44.857682301138
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+501755.7590214567,
+4973287.718751229
+]
+},
+"properties": {
+"license": "LPDIS-L25-000019",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Epic Tobacco",
+"address": "6445 Lake Road Terrace, Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:6445 Lake Road Terrace",
+"lon": -92.97775674858856,
+"lat": 44.91301441540576
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+498541.6480619553,
+4966657.076194032
+]
+},
+"properties": {
+"license": "LPDIS-L25-000147",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "King of Diamonds",
+"address": "6600 River Road, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "6600 RIVER RD, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.018456384543,
+"lat": 44.853325302931
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+496704.2978915779,
+4962755.460823525
+]
+},
+"properties": {
+"license": "LPDIS-L25-000186",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "IGH Smokes Plus LLC",
+"address": "9090 Buchanan Trail, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "9090 BUCHANAN TRL, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.04168390318,
+"lat": 44.818196115706
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+494146.04995514516,
+4970012.586432108
+]
+},
+"properties": {
+"license": "LPDIS-L25-000314",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Ricks Tobacco",
+"address": "1372 E Mendota Road, Inver Grove Heights, MN 55077",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1372 MENDOTA RD E, INVER GROVE HEIGHTS, MN, 55077",
+"lon": -93.074124243474,
+"lat": 44.883509496918
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+487517.95494892093,
+4966065.35519286
+]
+},
+"properties": {
+"license": "LPDIS-L25-000540",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Wonderous Collective",
+"address": "1278 Lone Oak Road, Eagan, MN 55121",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "1278 LONE OAK RD, EAGAN, MN, 55121",
+"lon": -93.157953476415,
+"lat": 44.847890795812
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+505236.9572748481,
+4974038.724755886
+]
+},
+"properties": {
+"license": "LPDIS-L25-001281",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Pizzeria Pezzo",
+"address": "8505 Valley Creek Road, Suite# 200 Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "8505 VALLEY CREEK RD, WOODBURY, MN, 55125",
+"lon": -92.933646599204,
+"lat": 44.919757906633
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+494313.89701692195,
+4970009.885088372
+]
+},
+"properties": {
+"license": "LPDIS-L25-000678",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Gold Palace Liquor",
+"address": "1330 Mendota Road, Inver Grove Heights, MN 55077",
+"authority": "City of Inver Grove Heights",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1330 MENDOTA RD E, INVER GROVE HEIGHTS, MN, 55077",
+"lon": -93.071998891537,
+"lat": 44.883486538782
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+478807.2646930087,
+4967478.155419362
+]
+},
+"properties": {
+"license": "LPDIS-L25-001945",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "RASSEL WINE OF BLOOMINGTON",
+"address": "7850 S Portland Avenue, Bloomington, MN 55420",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7850 PORTLAND AVE S, BLOOMINGTON, MN, 55420",
+"lon": -93.268240588403,
+"lat": 44.860403260664
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480402.98773816356,
+4964926.501462175
+]
+},
+"properties": {
+"license": "LPDIS-L25-000537",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Prairie Leaf",
+"address": "9200 Old Cedar Avenue, Unit# B Bloomington, MN 55425",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "9200 OLD CEDAR AVE S, BLOOMINGTON, MN, 55425",
+"lon": -93.247944840989,
+"lat": 44.837478715505
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483428.10640298016,
+4959668.7808069885
+]
+},
+"properties": {
+"license": "LPDIS-L25-001472",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Emagine Entertainment",
+"address": "2055 Cliff Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "2055 CLIFF RD, EAGAN, MN, 55122",
+"lon": -93.209499355705,
+"lat": 44.790224546563
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476314.973104618,
+4944179.334978145
+]
+},
+"properties": {
+"license": "LPDIS-L25-001472",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Emagine Entertainment",
+"address": "20653 Keokuk Avenue, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "20653 KEOKUK AVE, LAKEVILLE, MN, 55044",
+"lon": -93.298703147239,
+"lat": 44.650584375564
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+507846.42183281045,
+4976840.08702756
+]
+},
+"properties": {
+"license": "LPDIS-L25-000306",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "woodbury tobacco n vape plus Inc",
+"address": "10150 Hudson Road, Woodbury, MN 55129",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "10150 HUDSON RD, WOODBURY, MN, 55129",
+"lon": -92.900540634811,
+"lat": 44.944951832634
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+496658.31990432274,
+4964755.740689771
+]
+},
+"properties": {
+"license": "LPDIS-L25-000770",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "nver Grove Tobacco Inc 2",
+"address": "7806 Cahill Avenue, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nInternal/external transport activity",
+"geocoded": "7806 CAHILL AVE E, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.042278591432,
+"lat": 44.836202817775
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+487505.2506193174,
+4964898.330890454
+]
+},
+"properties": {
+"license": "LPDIS-L25-001033",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Denmark Smoke Shop Plus",
+"address": "3250 Denmark Avenue, Eagan, MN 55121",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:3250 Denmark Avenue",
+"lon": -93.15808550915736,
+"lat": 44.837384855002746
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+508559.7349998584,
+4953760.256912593
+]
+},
+"properties": {
+"license": "LPDIS-L25-001821",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Hastings Tobacco 1 Inc.",
+"address": "1769 Market Boulevard, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nInternal/external transport activity",
+"geocoded": "1769 MARKET BLVD, HASTINGS, MN, 55033",
+"lon": -92.891888118005,
+"lat": 44.737175217057
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+509532.82010323263,
+4953774.289853858
+]
+},
+"properties": {
+"license": "LPDIS-L25-001823",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Westview Smokes Inc",
+"address": "1355 S Frontage Road, Suite# 420 Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nInternal/external transport activity",
+"geocoded": "1355 S FRONTAGE RD, HASTINGS, MN, 55033",
+"lon": -92.87959754057,
+"lat": 44.73728925052
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480492.2709159977,
+4959700.405587751
+]
+},
+"properties": {
+"license": "LPDIS-L25-000998",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Burnsville Smoke Shop",
+"address": "2001 E Cliff Road, Suite# 101 Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "2001 CLIFF RD E, BURNSVILLE, MN, 55337",
+"lon": -93.246614635758,
+"lat": 44.79043512605
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+502247.71016755525,
+4974741.772476782
+]
+},
+"properties": {
+"license": "LPDIS-L25-000673",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Moon Soon Tobacco",
+"address": "6671 Valley Creek Road, Suite# 201 Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "6671 VALLEY CREEK RD, WOODBURY, MN, 55125",
+"lon": -92.971517882958,
+"lat": 44.926102500691
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+489970.9169050928,
+4953372.781532585
+]
+},
+"properties": {
+"license": "LPDIS-L25-000630",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Rosemount tobacco and vape center",
+"address": "14883 S Robert Trail, Rosemount, MN 55068",
+"authority": "City of Rosemount",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14883 ROBERT TRL S, ROSEMOUNT, MN, 55068",
+"lon": -93.126662508741,
+"lat": 44.73366796269
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+503792.1256205294,
+4964481.108812959
+]
+},
+"properties": {
+"license": "LPDIS-L25-000673",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Moon Soon Tobacco",
+"address": "7584 S 80th Street, Suite# 201 Cottage Grove, MN 55016",
+"authority": "City of Cottage Grove",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7584 80TH ST S, COTTAGE GROVE, MN, 55016",
+"lon": -92.952024471512,
+"lat": 44.833728278832
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476156.1200182885,
+4954841.801058682
+]
+},
+"properties": {
+"license": "LPDIS-L25-001002",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "1750 W County Road 42, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nDelivery Endorsement (LPHE)",
+"geocoded": "1750 CO RD 42 W, BURNSVILLE, MN, 55337",
+"lon": -93.301203710303,
+"lat": 44.746565622022
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+479596.12399485445,
+4953707.671627463
+]
+},
+"properties": {
+"license": "LPDIS-L25-001180",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": " BURNSVILLE OUTLET PLUS",
+"address": "1266 E County Road 42, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1266 CO RD 42 E, BURNSVILLE, MN, 55337",
+"lon": -93.257703569326,
+"lat": 44.736462249516
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+469951.43783434,
+4955023.601411305
+]
+},
+"properties": {
+"license": "LPDIS-L25-001180",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": " savage outlet plus",
+"address": "14101 S Highway 13, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14101 STATE HWY 13, SAVAGE, MN, 55378",
+"lon": -93.379592461441,
+"lat": 44.747968606246
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+469951.5938826407,
+4955077.846682009
+]
+},
+"properties": {
+"license": "LPDIS-L25-001250",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "14075 Highway 13, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14075 STATE HWY 13, SAVAGE, MN, 55378",
+"lon": -93.379593686259,
+"lat": 44.748456935656
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483675.84753868874,
+4951584.11280832
+]
+},
+"properties": {
+"license": "LPDIS-L25-001264",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Pahls Market Inc",
+"address": "6885 W 160th Street, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "6885 160TH ST W, APPLE VALLEY, MN, 55124",
+"lon": -93.206108615492,
+"lat": 44.717449978713
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+475460.04380554764,
+4966508.515590749
+]
+},
+"properties": {
+"license": "LPDIS-L25-001683",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "TruNorth Wellness Hub",
+"address": "2501 W 84th Street, Bloomington, MN 55431",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "2501 W 84TH ST, BLOOMINGTON, MN, 55431",
+"lon": -93.31055951694,
+"lat": 44.851567175674
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476904.6743802206,
+4943366.722443144
+]
+},
+"properties": {
+"license": "LPDIS-L25-000604",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Vape City Tobacco Inc",
+"address": "11276 W 210th Street, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:11276 210th Street West",
+"lon": -93.29122963475581,
+"lat": 44.6432881456178
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482971.5417684673,
+4959674.31450577
+]
+},
+"properties": {
+"license": "LPDIS-L25-000622",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Allstar Tobacco and Vape Inc.",
+"address": "2105 Cliff Road, Unit# 700 Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "2105 CLIFF RD, EAGAN, MN, 55122",
+"lon": -93.215271321333,
+"lat": 44.790263628447
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+484563.5366775499,
+4961488.448636732
+]
+},
+"properties": {
+"license": "LPDIS-L25-000622",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Allstar Tobacco and Vape Inc.",
+"address": "4130 Blackhawk Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "4130 BLACKHAWK RD, EAGAN, MN, 55122",
+"lon": -93.19520072732,
+"lat": 44.80663097767
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476204.75170548283,
+4954842.58777294
+]
+},
+"properties": {
+"license": "LPDIS-L25-000904",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Wine & Spirits",
+"address": "1700 W County Road 42, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1700 CO RD 42 W, BURNSVILLE, MN, 55337",
+"lon": -93.300589424035,
+"lat": 44.74657432272
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+505040.805933008,
+4976049.555597635
+]
+},
+"properties": {
+"license": "LPDIS-L25-000904",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Wine & Spirits",
+"address": "8452 Tamarack Village, Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8452 TAMARACK RD, WOODBURY, MN, 55125",
+"lon": -92.936111814989,
+"lat": 44.937860891537
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+487028.2414847137,
+4964156.417915543
+]
+},
+"properties": {
+"license": "LPDIS-L25-000753",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "$5 Tan",
+"address": "1348 Town Centre Drive, Eagan, MN 55123",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1348 TOWN CENTRE DR, EAGAN, MN, 55123",
+"lon": -93.164101723203,
+"lat": 44.830697527591
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+486009.35586887226,
+4954681.4769056905
+]
+},
+"properties": {
+"license": "LPDIS-L25-000753",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "$5 Tan",
+"address": "14050 Pilot Knob Road, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14050 PILOT KNOB RD, APPLE VALLEY, MN, 55124",
+"lon": -93.176730805704,
+"lat": 44.745382778837
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483094.46484544495,
+4948968.963555911
+]
+},
+"properties": {
+"license": "LPDIS-L25-000753",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "$5 Tan",
+"address": "17647 Glasgow Avenue, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "17647 GLASGOW AVE, LAKEVILLE, MN, 55044",
+"lon": -93.213362602067,
+"lat": 44.693894057792
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477539.28106642555,
+4948751.067083095
+]
+},
+"properties": {
+"license": "LPDIS-L25-000753",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "$5 Tan",
+"address": "17787 Kenwood Trail, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "17787 KENWOOD TRL, LAKEVILLE, MN, 55044",
+"lon": -93.283463548801,
+"lat": 44.691779988376
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+470020.56890892785,
+4954835.659559154
+]
+},
+"properties": {
+"license": "LPDIS-L25-000753",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "$5 Tan",
+"address": "7715 Egan Drive, Savage, MN 55378",
+"authority": "City of Savage",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7715 EGAN DR, SAVAGE, MN, 55378",
+"lon": -93.378708125707,
+"lat": 44.746279628437
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+488665.4743948241,
+4961070.656289737
+]
+},
+"properties": {
+"license": "LPDIS-L25-000763",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "United Tobacco and Vape",
+"address": "4250 Lexington Avenue, Suite# 105 Eagan, MN 55123",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "4250 LEXINGTON AVE S, EAGAN, MN, 55123",
+"lon": -93.143320836778,
+"lat": 44.802946801581
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+478019.1724088268,
+4958006.194542096
+]
+},
+"properties": {
+"license": "LPDIS-L25-000772",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Red Lion Liquor",
+"address": "12400 S Nicollet Avenue, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "12400 NICOLLET AVE, BURNSVILLE, MN, 55337",
+"lon": -93.277805785124,
+"lat": 44.77511176777
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476299.378115266,
+4953787.821621391
+]
+},
+"properties": {
+"license": "LPDIS-L25-000354",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "M&M Tobacco & Vape",
+"address": "1504 W Southcross Drive, Burnsville, MN 55306",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1504 SOUTHCROSS DR W, BURNSVILLE, MN, 55306",
+"lon": -93.299345087168,
+"lat": 44.737082233327
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+502576.2413314404,
+4964152.311938001
+]
+},
+"properties": {
+"license": "LPDIS-L25-000482",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "G-Will Liquors #4",
+"address": "6999 S 80th Street, Cottage Grove, MN 55016",
+"authority": "City of Cottage Grove",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:6999 80Th Street South",
+"lon": -92.96740872077764,
+"lat": 44.83077381242867
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476303.6433279059,
+4953789.150035932
+]
+},
+"properties": {
+"license": "LPDIS-L25-000554",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Super Gas USA",
+"address": "1500 W Southcross Drive, Burnsville, MN 55306",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1500 SOUTHCROSS DR W, BURNSVILLE, MN, 55306",
+"lon": -93.299291278832,
+"lat": 44.737094333192
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+499597.62785909243,
+4969609.193141424
+]
+},
+"properties": {
+"license": "LPDIS-L25-001995",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Opinion Brewing Company",
+"address": "374 21st Street, Newport, MN 55055",
+"authority": "City of Newport",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)\nDelivery Endorsement (LPHE)",
+"geocoded": "374 21ST ST, NEWPORT, MN, 55055",
+"lon": -93.005094622706,
+"lat": 44.879902045535
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477998.6873201146,
+4958682.913620977
+]
+},
+"properties": {
+"license": "LPDIS-L25-001526",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Bricksworth Beer Co.",
+"address": "12257 S Nicollet Avenue, Unit# B Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "12257 NICOLLET AVE, BURNSVILLE, MN, 55337",
+"lon": -93.278093923385,
+"lat": 44.7812030793
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477185.6871384984,
+4965262.329775641
+]
+},
+"properties": {
+"license": "LPDIS-L25-001312",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Sports Page",
+"address": "9014 S Lyndale Avenue, Bloomington, MN 55420",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "9014 LYNDALE AVE S, BLOOMINGTON, MN, 55420",
+"lon": -93.288665307734,
+"lat": 44.840406237554
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+475734.47095671203,
+4965302.32372357
+]
+},
+"properties": {
+"license": "LPDIS-L25-001603",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "BUCKS LIQUOR",
+"address": "2119 W 90th Street, Bloomington, MN 55431",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "2119 W 90TH ST, BLOOMINGTON, MN, 55431",
+"lon": -93.3070289359,
+"lat": 44.840718377927
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480830.1475149245,
+4959708.460678318
+]
+},
+"properties": {
+"license": "LPDIS-L25-001946",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Racks Sports Bar Sports Grill",
+"address": "2400 E Cliff Road, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "2400 CLIFF RD E, BURNSVILLE, MN, 55337",
+"lon": -93.24234357768,
+"lat": 44.790516783024
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476152.2964201523,
+4954829.0083610015
+]
+},
+"properties": {
+"license": "LPDIS-L25-001239",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Trove Brewing",
+"address": "1719 W County Road 42, Burnsville, MN 55036",
+"authority": "City of Burnsville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "1719 CO RD 42 W, BURNSVILLE, MN, 55306",
+"lon": -93.301251412439,
+"lat": 44.746450332156
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+468742.80130978685,
+4964625.4004850285
+]
+},
+"properties": {
+"license": "LPDIS-L25-000736",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cheers Wine & Spirits",
+"address": "9340 Ensign Avenue South, Bloomington, MN 55438",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "9340 ENSIGN AVE S, BLOOMINGTON, MN, 55438",
+"lon": -93.395450172484,
+"lat": 44.834352649713
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+517117.5837620957,
+4972144.998014818
+]
+},
+"properties": {
+"license": "LPDIS-L25-000733",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lumberyard Pub",
+"address": "3121 S Saint Croix Trail, Afton, MN 55001",
+"authority": "Washington County",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "3121 ST CROIX TRL S, AFTON, MN, 55001",
+"lon": -92.783181255895,
+"lat": 44.902523911788
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482768.31530437624,
+4953691.77049161
+]
+},
+"properties": {
+"license": "LPDIS-L25-000755",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "The Tobacco Shop",
+"address": "14638 Cedar Avenue, Suite# 130 Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14638 CEDAR AVE, APPLE VALLEY, MN, 55124",
+"lon": -93.217638164575,
+"lat": 44.736402480019
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+511658.9575343239,
+4952951.600009046
+]
+},
+"properties": {
+"license": "LPDIS-L25-000210",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Jake\u2019s Discount Liquor & Wine",
+"address": "1608 Vermillion Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1608 VERMILLION ST, HASTINGS, MN, 55033",
+"lon": -92.852762642406,
+"lat": 44.729851666713
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+499949.8419813092,
+4968980.243323237
+]
+},
+"properties": {
+"license": "LPDIS-L25-000400",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Newport Liquor",
+"address": "1638 Hastings Avenue, Newport, MN 55055",
+"authority": "City of Newport",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1638 HASTINGS AVE, NEWPORT, MN, 55055",
+"lon": -93.000635011965,
+"lat": 44.874240274594
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+495640.17362795747,
+4967835.92471493
+]
+},
+"properties": {
+"license": "LPDIS-L25-000346",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Market Liquor",
+"address": "5866 Blaine Avenue, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "5866 BLAINE AVE E, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.055186539785,
+"lat": 44.863925632941
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+502889.53309708723,
+4974831.515165986
+]
+},
+"properties": {
+"license": "LPDIS-L25-000351",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Woodbury Tobacco & Cigar Depot Plus Inc",
+"address": "7060 Valley Creek Plaza, Suite# 115 Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7060 VALLEY CREEK PLZ, WOODBURY, MN, 55125",
+"lon": -92.963384438394,
+"lat": 44.926908050239
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480493.72177582403,
+4958037.197434639
+]
+},
+"properties": {
+"license": "LPDIS-L25-000353",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Crosstown Liquor",
+"address": "2000 W Burnsville Parkway, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "2000 E BURNSVILLE PKWY, BURNSVILLE, MN, 55337",
+"lon": -93.246532564504,
+"lat": 44.775462654515
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+472282.8206310683,
+4961806.042285426
+]
+},
+"properties": {
+"license": "LPDIS-L25-000138",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Bobby and Steve's Auto World",
+"address": "10740 S Normandale Boulevard, Bloomington, MN 55437",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "10740 NORMANDALE BLVD, BLOOMINGTON, MN, 55437",
+"lon": -93.350510725853,
+"lat": 44.80911896858
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+474005.130730944,
+4967481.178521965
+]
+},
+"properties": {
+"license": "LPDIS-L25-000138",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Bobby and Steve's Auto World",
+"address": "7920 S France Avenue, Bloomington, MN 55435",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7920 FRANCE AVE S, BLOOMINGTON, MN, 55435",
+"lon": -93.329021381349,
+"lat": 44.860271541543
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+511712.34680497705,
+4954567.889990704
+]
+},
+"properties": {
+"license": "LPDIS-L25-001637",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Spiral Brewery",
+"address": "111 E 2nd Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "111 2ND ST E, HASTINGS, MN, 55033",
+"lon": -92.852051310247,
+"lat": 44.744401144089
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+479609.59133873886,
+4967522.832421624
+]
+},
+"properties": {
+"license": "LPDIS-L25-001869",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "DashMart",
+"address": "7862 S 12th Avenue, Bloomington, MN 55420",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7862 12TH AVE S, BLOOMINGTON, MN, 55425",
+"lon": -93.258087285164,
+"lat": 44.860828845909
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+505002.72437503206,
+4976466.638145465
+]
+},
+"properties": {
+"license": "LPDIS-L25-001564",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": " Smokey's Tobacco & Vape Center",
+"address": "8484 Tamarack Bay, Suite# 102 Woodbury, MN 55125",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)\nInternal/external transport activity\nDelivery Endorsement (LPHE)",
+"geocoded": "8484 TAMARACK BAY, WOODBURY, MN, 55125",
+"lon": -92.936590335586,
+"lat": 44.941615744697
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+488940.9339514733,
+4961249.146923776
+]
+},
+"properties": {
+"license": "LPDIS-L25-000949",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Liquor",
+"address": "1016 Diffley Road, Eagan, MN 55123",
+"authority": "City of Eagan",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1016 DIFFLEY RD, EAGAN, MN, 55123",
+"lon": -93.139841645954,
+"lat": 44.8045579298
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477621.5045645421,
+4948608.878817851
+]
+},
+"properties": {
+"license": "LPDIS-L25-001190",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "17756 Kenwood Trail, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nDelivery Endorsement (LPHE)",
+"geocoded": "17756 KENWOOD TRL, LAKEVILLE, MN, 55044",
+"lon": -93.282419646199,
+"lat": 44.690502536837
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+511661.25303823757,
+4954438.595225893
+]
+},
+"properties": {
+"license": "LPDIS-L25-001681",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Smokeys Tobacco and Vape Center",
+"address": "300 Vermillion Street, Hastings , MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)\nInternal/external transport activity",
+"geocoded": "300 VERMILLION ST, HASTINGS, MN, 55033",
+"lon": -92.852699672987,
+"lat": 44.743238027722
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477507.86658535065,
+4948816.864737467
+]
+},
+"properties": {
+"license": "LPDIS-L25-000118",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Vape Genius",
+"address": "17729 Kenwood Trail, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "17729 KENWOOD TRL, LAKEVILLE, MN, 55044",
+"lon": -93.283862901063,
+"lat": 44.69237133416
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+486384.84765139525,
+4964450.666873105
+]
+},
+"properties": {
+"license": "LPDIS-L25-000118",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Vape Genius",
+"address": "3406 Federal Drive, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "3406 FEDERAL DR, EAGAN, MN, 55122",
+"lon": -93.172248954499,
+"lat": 44.83333441613
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+508609.8060446286,
+4953759.681878561
+]
+},
+"properties": {
+"license": "LPDIS-L25-000917",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Discount Liquor",
+"address": "1729 Market Boulevard, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1729 MARKET BLVD, HASTINGS, MN, 55033",
+"lon": -92.891255717337,
+"lat": 44.737169440007
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477207.3101455427,
+4966455.999190984
+]
+},
+"properties": {
+"license": "LPDIS-L25-000917",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Discount Liquor",
+"address": "8421 S Lyndale Avenue, Bloomington, MN 55420",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8421 LYNDALE AVE S, BLOOMINGTON, MN, 55420",
+"lon": -93.288445338823,
+"lat": 44.851152408848
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480366.54137901653,
+4959199.27673341
+]
+},
+"properties": {
+"license": "LPDIS-L25-001291",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "US Mobil",
+"address": "12020 County Road 11, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "12020 CO RD 11, BURNSVILLE, MN, 55337",
+"lon": -93.248184747928,
+"lat": 44.785920431721
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+478007.1679123519,
+4955814.223794368
+]
+},
+"properties": {
+"license": "LPDIS-L25-001635",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Nicollet Tobacco & Vape",
+"address": "13716 Nicollet Avenue, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "13716 NICOLLET AVE, BURNSVILLE, MN, 55337",
+"lon": -93.277862892883,
+"lat": 44.755378855687
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+479559.7782111922,
+4953889.850008414
+]
+},
+"properties": {
+"license": "LPDIS-L25-001640",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Sky high Tobacco & vape",
+"address": "14619 County Road 11, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14619 CO RD 11, BURNSVILLE, MN, 55337",
+"lon": -93.258169914027,
+"lat": 44.738101228366
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+511658.23539048637,
+4953427.5290375715
+]
+},
+"properties": {
+"license": "LPDIS-L25-001935",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "HASTINGS TOBACCO & VAPE INC",
+"address": "1210 Vermillion Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1210 VERMILLION ST, HASTINGS, MN, 55033",
+"lon": -92.85276089173,
+"lat": 44.734136144633
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+485899.0722229798,
+4959664.236294279
+]
+},
+"properties": {
+"license": "LPDIS-L25-000746",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Thomas Lake Tobacco",
+"address": "1565 Cliff Road, Suite# 5 Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1565 CLIFF RD, EAGAN, MN, 55122",
+"lon": -93.178261820318,
+"lat": 44.790236665507
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483628.5483127212,
+4951510.203003799
+]
+},
+"properties": {
+"license": "LPDIS-L25-000027",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lakeville Liquors",
+"address": "16000 Galaxie Avenue, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "parcel:16000 Galaxie Avenue",
+"lon": -93.20670344249545,
+"lat": 44.716783539973825
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477868.2707029865,
+4951251.162108593
+]
+},
+"properties": {
+"license": "LPDIS-L25-000027",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lakeville Liquors",
+"address": "16179 Kenrick Avenue, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "16179 KENRICK AVE, LAKEVILLE, MN, 55044",
+"lon": -93.279419852732,
+"lat": 44.714296798365
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480351.67630178505,
+4944922.043592749
+]
+},
+"properties": {
+"license": "LPDIS-L25-000027",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lakeville Liquors",
+"address": "20164 Heritage Drive, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "20164 HERITAGE DR, LAKEVILLE, MN, 55044",
+"lon": -93.247823359529,
+"lat": 44.657392327555
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476287.3510748285,
+4943691.8327792855
+]
+},
+"properties": {
+"license": "LPDIS-L25-000027",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Lakeville Liquors",
+"address": "20880 Keokuk Avenue, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "20880 KEOKUK AVE, LAKEVILLE, MN, 55044",
+"lon": -93.299028947697,
+"lat": 44.646194793244
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+488810.17918628745,
+4964623.239582985
+]
+},
+"properties": {
+"license": "LPDIS-L25-001550",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Chip's Pickleball Club LLC",
+"address": "980 Discovery Road, Eagan, MN 55121",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "980 DISCOVERY RD, EAGAN, MN, 55121",
+"lon": -93.141569340065,
+"lat": 44.834930099442
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477923.48074020864,
+4958527.502168925
+]
+},
+"properties": {
+"license": "LPDIS-L25-000897",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Nicollet Convenience Store",
+"address": "12340 Nicollet Avenue, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "12340 NICOLLET AVE, BURNSVILLE, MN, 55337",
+"lon": -93.279037775442,
+"lat": 44.779801720698
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480809.93923272524,
+4953207.05687291
+]
+},
+"properties": {
+"license": "LPDIS-L25-000287",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Boosh Tobacco",
+"address": "213 W 150th Street, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "213 150TH ST W, APPLE VALLEY, MN, 55124",
+"lon": -93.242354245052,
+"lat": 44.731989145418
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482945.95810925186,
+4959674.498448971
+]
+},
+"properties": {
+"license": "LPDIS-L25-000659",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Atomic Liquors",
+"address": "2113 Cliff Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "2113 CLIFF RD, EAGAN, MN, 55122",
+"lon": -93.215594750155,
+"lat": 44.790264674252
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+486791.6822834356,
+4964345.297058521
+]
+},
+"properties": {
+"license": "LPDIS-L25-001136",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Eagan Tobacco and Vape LLC",
+"address": "3450 Pilot Knob Road, Suite# 104 Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nInternal/external transport activity",
+"geocoded": "3450 PILOT KNOB RD, EAGAN, MN, 55122",
+"lon": -93.167099261305,
+"lat": 44.832393507708
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+496455.829048627,
+4966730.899135767
+]
+},
+"properties": {
+"license": "LPDIS-L25-001677",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Inver Grove Tobacco & Vape LLC",
+"address": "6570 E Cahill Avenue, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nInternal/external transport activity",
+"geocoded": "6570 CAHILL AVE E, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.044854279848,
+"lat": 44.853982551885
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482650.6908917198,
+4953401.058625406
+]
+},
+"properties": {
+"license": "LPDIS-L25-000125",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Apple Valley Liquor",
+"address": "7525 W 148th Street, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7525 148TH ST W, APPLE VALLEY, MN, 55124",
+"lon": -93.219113880772,
+"lat": 44.733782569576
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+486039.09905665217,
+4954403.734623745
+]
+},
+"properties": {
+"license": "LPDIS-L25-000126",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Apple Valley Liquor",
+"address": "14261 W Essex Avenue, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14261 ESSEX AVE, APPLE VALLEY, MN, 55124",
+"lon": -93.17634748793,
+"lat": 44.742883043216
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+473936.7692599996,
+4962225.421287061
+]
+},
+"properties": {
+"license": "LPDIS-L25-000167",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Bloomington Liquor",
+"address": "10522 S France Avenue, Bloomington, MN 55431",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "10522 FRANCE AVE S, BLOOMINGTON, MN, 55431",
+"lon": -93.329616794031,
+"lat": 44.812956527548
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+490790.7756652318,
+4952032.411670345
+]
+},
+"properties": {
+"license": "LPDIS-L25-000595",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "OMNI Winery & Taproom",
+"address": "15701 Biscayne Avenue, Rosemount, MN 55068",
+"authority": "City of Rosemount",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "15701 BISCAYNE AVE, ROSEMOUNT, MN, 55068",
+"lon": -93.11628393018,
+"lat": 44.721612512111
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+486036.78774714266,
+4951966.779466217
+]
+},
+"properties": {
+"license": "LPDIS-L25-000127",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Apple Valley Liquor",
+"address": "5470 W 157th Street, Apple Valley, MN 55124",
+"authority": "City of Apple Valley",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "5470 157TH ST W, APPLE VALLEY, MN, 55124",
+"lon": -93.176310017764,
+"lat": 44.720944775351
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+509919.28041430056,
+4953837.2927272
+]
+},
+"properties": {
+"license": "LPDIS-L25-000824",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Spiral Food Coop",
+"address": "1250 S Frontage Road, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1250 S FRONTAGE RD, HASTINGS, MN, 55033",
+"lon": -92.874715214293,
+"lat": 44.737851172449
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+507755.5638476035,
+4973606.19908618
+]
+},
+"properties": {
+"license": "LPDIS-L25-001187",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "PRESERVED COMPANY LLC",
+"address": "2230 Eagle Creek Lane, Suite# E Woodbury, MN 55129",
+"authority": "City of Woodbury",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "2230 EAGLE CREEK LN, WOODBURY, MN, 55129",
+"lon": -92.901741975089,
+"lat": 44.915841292869
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+481215.7567508201,
+4943569.68603659
+]
+},
+"properties": {
+"license": "LPDIS-L25-001490",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "HiHi tobacco & market",
+"address": "8485 W 210th Street, Suite# B Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8485 210TH ST W, LAKEVILLE, MN, 55044",
+"lon": -93.236875289647,
+"lat": 44.645240989922
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+502475.479837353,
+4964211.4899386475
+]
+},
+"properties": {
+"license": "LPDIS-L25-001584",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "CG Tobacco",
+"address": "6990 S 80th, Unit# 100 Cottage Grove, MN 55016",
+"authority": "City of Cottage Grove",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:6990 80Th Street South",
+"lon": -92.9686831364264,
+"lat": 44.83130690087563
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+504065.1412179678,
+4970439.644992072
+]
+},
+"properties": {
+"license": "LPDIS-L25-000098",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Jerry's Wine & Spirits",
+"address": "7754 Hargis Parkway, Woodbury, MN 55129",
+"authority": "City of Woodbury",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7754 HARGIS PKWY, WOODBURY, MN, 55129",
+"lon": -92.948522681138,
+"lat": 44.887366377701
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+482748.15339591337,
+4959437.394928494
+]
+},
+"properties": {
+"license": "LPDIS-L25-000518",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Casper's / Casper's of Eagan",
+"address": "4625 Nicols Road, Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "4625 NICOLS RD, EAGAN, MN, 55122",
+"lon": -93.218087313173,
+"lat": 44.788125474091
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+474104.28941904457,
+4961943.298968921
+]
+},
+"properties": {
+"license": "LPDIS-L25-000811",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "MGM Bloomington",
+"address": "3701 W Old Shakopee Road, Suite# 500 Bloomington, MN 55431",
+"authority": "City of Bloomington",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:3701 OLD SHAKOPEE RD W",
+"lon": -93.32748386002632,
+"lat": 44.810422935355426
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+511691.05163271946,
+4953418.458317264
+]
+},
+"properties": {
+"license": "LPDIS-L25-000812",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "House of Wines & Liquor",
+"address": "1225 Vermillion Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1225 VERMILLION ST, HASTINGS, MN, 55033",
+"lon": -92.852346644145,
+"lat": 44.734053952047
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+496836.9911425363,
+4967817.382900903
+]
+},
+"properties": {
+"license": "LPDIS-L25-001102",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "SUPER USA",
+"address": "5705 Carmen Avenue, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "5705 CARMEN AVE E, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.040037151488,
+"lat": 44.863765032574
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+496836.95997044246,
+4967814.792488271
+]
+},
+"properties": {
+"license": "LPDIS-L25-001103",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "A&M LIQUOR",
+"address": "5709 Carmen Avenue, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "5709 CARMEN AVE E, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.040037529899,
+"lat": 44.863741713177
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477672.6408078245,
+4954869.538491142
+]
+},
+"properties": {
+"license": "LPDIS-L25-001830",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "grand amoco inc",
+"address": "14220 Grand Avenue, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14220 GRAND AVE, BURNSVILLE, MN, 55337",
+"lon": -93.282047976229,
+"lat": 44.74686423742
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480940.58439361,
+4966686.1043484835
+]
+},
+"properties": {
+"license": "LPDIS-L25-000716",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Crave MOA",
+"address": "368 South Avenue, Bloomington, MN 55425",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "368 SOUTH AVE, BLOOMINGTON, MN, 55425",
+"lon": -93.241209228435,
+"lat": 44.853333386664
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+478452.25694567873,
+4954577.731349648
+]
+},
+"properties": {
+"license": "LPDIS-L25-001066",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "MN Smoke Shop",
+"address": "14244 Plymouth Avenue, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14244 PLYMOUTH AVE S, BURNSVILLE, MN, 55337",
+"lon": -93.272187344271,
+"lat": 44.744261219954
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+504706.9148184897,
+4962748.005448858
+]
+},
+"properties": {
+"license": "LPDIS-L25-000041",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Grove Tobacco",
+"address": "8599 W Point Douglas Road S, Suite# 200 Cottage Grove, MN 55016",
+"authority": "City of Cottage Grove",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8599 W POINT DOUGLAS RD S, COTTAGE GROVE, MN, 55016",
+"lon": -92.940467214406,
+"lat": 44.818121091446
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+475023.77022963396,
+4958108.898712857
+]
+},
+"properties": {
+"license": "LPDIS-L25-000207",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "MGM Wine and Spirit",
+"address": "3050 W Hwy 13, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:3050 Highway 13 West",
+"lon": -93.31566782251117,
+"lat": 44.775937964369504
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+479323.70818798745,
+4953948.65983307
+]
+},
+"properties": {
+"license": "LPDIS-L25-000220",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Blue Max Liquor",
+"address": "14640 S 10th Avenue, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "14640 10TH AVE S, BURNSVILLE, MN, 55337",
+"lon": -93.26115394523,
+"lat": 44.738623869913
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+476709.3044227352,
+4944160.663339272
+]
+},
+"properties": {
+"license": "LPDIS-L25-000305",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Vapeworld",
+"address": "20651 Kenrick Avenue, Lakeville, MN 55044",
+"authority": "City of Lakeville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "20651 KENRICK AVE, LAKEVILLE, MN, 55044",
+"lon": -93.293729264632,
+"lat": 44.650429184901
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+483685.8316209197,
+4960112.23213261
+]
+},
+"properties": {
+"license": "LPDIS-L25-000524",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Premier Wine & Spirit",
+"address": "1960 Cliff Lake Road, Suite# 101 Eagan, MN 55122",
+"authority": "City of Eagan",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1960 CLIFF LAKE RD, EAGAN, MN, 55122",
+"lon": -93.206255472129,
+"lat": 44.794222513175
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+511685.6916517998,
+4954300.112135387
+]
+},
+"properties": {
+"license": "LPDIS-L25-000935",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Caring Hands Massage & Spa",
+"address": "427 Vermillion Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "427 VERMILLION ST, HASTINGS, MN, 55033",
+"lon": -92.85239414733,
+"lat": 44.741990962194
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+488926.37188928574,
+4961249.218564924
+]
+},
+"properties": {
+"license": "LPDIS-L25-001173",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "1020 Diffley Road, Eagan, MN 55123",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1020 DIFFLEY RD, EAGAN, MN, 55123",
+"lon": -93.14002578392,
+"lat": 44.804558349112
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+487284.34889904206,
+4964270.275776323
+]
+},
+"properties": {
+"license": "LPDIS-L25-001181",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "1276 Town Centre Drive, Eagan, MN 55123",
+"authority": "City of Eagan",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "parcel:1276 Town Centre Drive",
+"lon": -93.16086465116979,
+"lat": 44.83172710358738
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+477207.3101455427,
+4966455.999190984
+]
+},
+"properties": {
+"license": "LPDIS-L25-001262",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "8421 S Lyndale Avenue, Bloomington, MN 55420",
+"authority": "City of Bloomington",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "8421 LYNDALE AVE S, BLOOMINGTON, MN, 55420",
+"lon": -93.288445338823,
+"lat": 44.851152408848
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+480378.7474891024,
+4955789.488378167
+]
+},
+"properties": {
+"license": "LPDIS-L25-000168",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Valley Natural Foods",
+"address": "13750 County Road 11, Burnsville, MN 55337",
+"authority": "City of Burnsville",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "13750 CO RD 11, BURNSVILLE, MN, 55337",
+"lon": -93.247899113453,
+"lat": 44.755225150293
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+508609.8060446286,
+4953759.681878561
+]
+},
+"properties": {
+"license": "LPDIS-L25-001325",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "1729 Market Boulevard, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "1729 MARKET BLVD, HASTINGS, MN, 55033",
+"lon": -92.891255717337,
+"lat": 44.737169440007
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+496637.6649469543,
+4964699.828131234
+]
+},
+"properties": {
+"license": "LPDIS-L25-001479",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "Cub Foods",
+"address": "7850 Cahill Road, Inver Grove Heights, MN 55076",
+"authority": "City of Inver Grove Heights",
+"liquor": false,
+"endorsements": "LPHE retailer operations endorsement",
+"geocoded": "7850 CAHILL AVE E, INVER GROVE HEIGHTS, MN, 55076",
+"lon": -93.042539545431,
+"lat": 44.835699385578
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+511761.97228851,
+4952258.741256907
+]
+},
+"properties": {
+"license": "LPDIS-L25-001516",
+"license_type": "LPHE Retailer",
+"kind": "lphe_retail",
+"name": "The Bar Draft House",
+"address": "2101 Vermillion Street, Hastings, MN 55033",
+"authority": "City of Hastings",
+"liquor": true,
+"endorsements": "LPHE retailer operations endorsement\nOn-site consumption endorsement (LPHE)",
+"geocoded": "2101 VERMILLION ST, HASTINGS, MN, 55033",
+"lon": -92.851477666941,
+"lat": 44.723612639428
+}
+}
+]
+}

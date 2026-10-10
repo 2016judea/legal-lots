@@ -1,0 +1,97 @@
+{
+ "source": "Apple Valley Code ch.155 Appendix F, read 2026-10-10 via amlegal; our reading of which PD zones 'permit freestanding or multi-tenant retail building stores and shops' (s.155.320(C) note)",
+ "pd_r_zones": [
+  {
+   "pd": 144,
+   "zone": 5
+  },
+  {
+   "pd": 244,
+   "zone": 1
+  },
+  {
+   "pd": 244,
+   "zone": 2
+  },
+  {
+   "pd": 290,
+   "zone": 2
+  },
+  {
+   "pd": 290,
+   "zone": 4
+  },
+  {
+   "pd": 341,
+   "zone": 4
+  },
+  {
+   "pd": 409,
+   "zone": 0
+  },
+  {
+   "pd": 409,
+   "zone": 1
+  },
+  {
+   "pd": 507,
+   "zone": 1
+  },
+  {
+   "pd": 507,
+   "zone": 6
+  },
+  {
+   "pd": 532,
+   "zone": 1
+  },
+  {
+   "pd": 532,
+   "zone": 2
+  },
+  {
+   "pd": 629,
+   "zone": 4
+  },
+  {
+   "pd": 632,
+   "zone": 7
+  },
+  {
+   "pd": 646,
+   "zone": 1
+  },
+  {
+   "pd": 646,
+   "zone": 2
+  },
+  {
+   "pd": 646,
+   "zone": 3
+  },
+  {
+   "pd": 679,
+   "zone": 2
+  },
+  {
+   "pd": 679,
+   "zone": 3
+  },
+  {
+   "pd": 703,
+   "zone": 5
+  },
+  {
+   "pd": 716,
+   "zone": 3
+  },
+  {
+   "pd": 739,
+   "zone": 2
+  },
+  {
+   "pd": 739,
+   "zone": 4
+  }
+ ]
+}
