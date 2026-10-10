@@ -1,0 +1,115 @@
+{
+  "city": "Saint Paul",
+  "county": "Ramsey",
+  "as_of": "2026-10-10",
+  "ordinance": {
+    "number": "Ord 24-21 (zoning); Ord. 25-66 (registration ch.420)",
+    "adopted": "2024-09-18",
+    "code_version": "Municode Supp. 133 Upd. 1, codified through Ord. 26-26 (2026-05-13)",
+    "url": "https://library.municode.com/mn/st._paul/codes/code_of_ordinances?nodeId=PTIILECO_TITVIIIZOCO_CH65ZOCOANUSDEDEST_ARTV65.400.COUS_DIV165.410.OFRESEUS_S65.511CARE"
+  },
+  "zoning_layer": {
+    "file": "data/raw/stp_principal_zoning.geojson",
+    "field": "Zoning"
+  },
+  "allowed_districts": {
+    "retail": [
+      "T2",
+      "T3",
+      "T4",
+      "B1",
+      "BC",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "IT",
+      "I1",
+      "I2",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "retail_flag_master_plan": [
+      "T3M",
+      "T4M",
+      "ITM"
+    ],
+    "micro_mezzo_retail": [
+      "T2",
+      "T3",
+      "T4",
+      "B1",
+      "BC",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "IT",
+      "I1",
+      "I2",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "micro_mezzo_with_onsite_production_le_15000sf": [
+      "T2",
+      "T3",
+      "T4",
+      "B3",
+      "B5",
+      "IT",
+      "I1",
+      "I2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ]
+  },
+  "excluded_flag": [
+    "PD (planned development, own plan)",
+    "CA (Capitol Area, state CAAPB zoning)",
+    "T1M (T1 not allowed)"
+  ],
+  "buffers": [
+    {
+      "sensitive_type": "primary_secondary_school",
+      "distance_ft": 300,
+      "measured_from": "property line of the school",
+      "measured_to": "principal structure of the cannabis retail business",
+      "whole_lot_rule": false,
+      "exempt_districts": [
+        "B4",
+        "B5"
+      ],
+      "cite": "s.65.511(b)",
+      "layer": "data/raw/stp_mde_school_parcels_sy2024_25.geojson (city's MDE-list school parcels); cross-check data/raw/mn_mde_school_program_locations_sy2025_26.geojson",
+      "implementation_note": "needs building footprints for exact answer; parcel polygon is a conservative stand-in"
+    }
+  ],
+  "location_tests": [],
+  "spacing_between_cannabis_ft": null,
+  "cap": null,
+  "cap_note": "s.420.03(a): 'There is no limit on the total number of registrations issued to retailers by the City.'",
+  "registrations_issued": "UNVERIFIED (no public list); 16 OCM-licensed retailers in Saint Paul per bricks mn_retailers.json",
+  "conditional_use_permit": "only for new construction covering >15,000 sf of land, except in industrial districts (s.65.511(a))",
+  "other_rules": [
+    "24/7 CCTV of sales areas and entries (s.65.511(c))",
+    "no common entrance with a licensed tobacco shop (s.65.511(d))",
+    "hours 8am-10pm Mon-Sat, 11am-6pm Sun (s.420.06)",
+    "registration application must include parcel ID and lease/purchase agreement (s.420.03(b)(3))"
+  ],
+  "city_layer": {
+    "file": "data/raw/stp_cannabis_regulation.geojson",
+    "retail_as_of": "2026-07-15"
+  },
+  "planner_contact": "Department of Safety and Inspections, 375 Jackson St Suite 220",
+  "notes": [
+    "daycare, youth-center, treatment and park buffers NOT in codified s.65.511 (contradicts earlier belief) - UNVERIFIED for amendments after May 2026"
+  ]
+}

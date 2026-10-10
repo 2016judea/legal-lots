@@ -1,0 +1,82 @@
+{
+  "city": "Minneapolis",
+  "county": "Hennepin",
+  "as_of": "2026-10-10",
+  "ordinance": {
+    "number": "Ord. No. 2024-041",
+    "adopted": "2024-10-31",
+    "effective": "2024-11-09",
+    "code_version": "Municode Supp. 73 Upd. 1, codified through Ord. 2026-020 (2026-06-25)",
+    "url": "https://library.municode.com/mn/minneapolis/codes/code_of_ordinances?nodeId=MICOOR_TIT20ZOCO_CH545USRE_ARTIISPUSST_545.210COUSST",
+    "city_page": "https://www.minneapolismn.gov/business-services/planning-zoning/amendments/proposed-adopted/cannabis/"
+  },
+  "zoning_layer": {
+    "file": "data/raw/mpls_primary_zoning.geojson",
+    "field": "Land_Use_Code"
+  },
+  "allowed_districts": {
+    "retail": [
+      "CM2",
+      "CM3",
+      "CM4",
+      "DT1",
+      "DT2",
+      "PR1"
+    ],
+    "micro_mezzo_retail": [
+      "CM2",
+      "CM3",
+      "CM4",
+      "DT1",
+      "DT2",
+      "PR1",
+      "PR2"
+    ]
+  },
+  "district_conditions": {
+    "PR1": "dispensary max 5,000 sf gross floor area (Table 545-1 '5P', s.545.20(d))",
+    "PR2": "micro/mezzo only: dispensary ACCESSORY to on-site cannabis cultivation or manufacturing, max 5,000 sf (s.545.450); must still meet 3-acre rule (2026 CPED interpretation)",
+    "CM2|CM3": "micro/mezzo manufacturing: entrance opens into retail component >=15% of floor area; production <=5,000 sf (s.545.230)",
+    "CM4|DT1|DT2": "micro/mezzo manufacturing: retail component >=30%; production <=5,000 sf (s.545.230)"
+  },
+  "buffers": [
+    {
+      "sensitive_type": "k12_school",
+      "distance_ft": 300,
+      "measured_from": "lot line of the cannabis lot",
+      "measured_to": "lot line of the school lot",
+      "whole_lot_rule": true,
+      "exempt_districts": [],
+      "cite": "s.545.210(f)(3)(a); measurement s.520.160(11) 'from lot line to lot line'",
+      "layer": "data/raw/mpls_cannabis_k12_school_parcels.geojson (city's own 179 K-12 parcels); cross-check data/raw/mn_mde_school_program_locations_sy2025_26.geojson"
+    }
+  ],
+  "location_tests": [
+    {
+      "type": "contiguous_area",
+      "min_acres": 3,
+      "rule": "lot must lie within a contiguous commercial or industrial area >=3 acres made up of contiguous districts where a dispensary is a permitted principal use (CM2,CM3,CM4,DT1,DT2,PR1)",
+      "cite": "s.545.210(f)(3)(b)",
+      "city_layer": "data/raw/mpls_cannabis_3acre_commercial.geojson",
+      "UNVERIFIED": "whether street right-of-way breaks contiguity; how PR2 acreage counts for accessory dispensaries"
+    }
+  ],
+  "spacing_between_cannabis_ft": null,
+  "spacing_note": "draft 500/300 ft spacing struck by Chowdhury amendment; none in adopted s.545.210",
+  "cap": null,
+  "cap_note": "Ch.355 registration has no numeric limit; draft deck 'No license caps'",
+  "registrations_issued": "UNVERIFIED (no public list); 24 OCM-licensed retailers in Minneapolis per bricks mn_retailers.json",
+  "conditional_use_permit": false,
+  "other_rules": [
+    "principal use only unless accessory to cultivation/manufacturing (s.545.210(f)(3)(c))",
+    "no common entrance with any non-cannabis use (s.545.210(f)(3)(d))",
+    "odor control and air filtration plan (s.545.210(f)(3)(e))",
+    "no portable, temporary, backlit or freestanding signs for cannabis businesses (Ch.560)",
+    "registration with city licensing official before retail sales (Ch.355)"
+  ],
+  "planner_contact": "311 / 612-673-3000; SmallBusiness@minneapolismn.gov; registrations BusinessLicenses@minneapolismn.gov",
+  "notes": [
+    "daycare, treatment and park buffers allowed by Minn. Stat. 342.13(c) were NOT adopted",
+    "city map caveat: 'Applicants should not rely on this map alone for land use verification.'"
+  ]
+}
