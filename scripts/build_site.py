@@ -13,6 +13,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
 TRACK = (SITE / "reader_events.js").read_text()
+# The shared PostHog block (?me=1 opt-out, no headless capture): ~/.claude/skills/site-analytics/posthog_inject.py --print.
+POSTHOG = (ROOT / "scripts" / "posthog.html").read_text()
 CITIES = json.loads((ROOT / "site_cities.json").read_text())
 
 CSS = """
@@ -50,7 +52,7 @@ HEAD = """<!doctype html><html lang=en><head><meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <title>{title}</title><meta name=description content="{desc}">
 <meta property=og:title content="{title}"><meta property=og:description content="{desc}">
-<style>{css}</style>{extra}</head><body>
+<style>{css}</style>{extra}{posthog}</head><body>
 <script defer src="/_vercel/insights/script.js"></script>
 <script>{track}</script>
 """
@@ -188,7 +190,7 @@ document.getElementById('q').oninput=function(e){{q=e.target.value.toLowerCase()
 document.getElementById('more').onclick=function(){{shown+=60;draw()}};
 draw();
 </script></body></html>"""
-    return HEAD.format(title=html.escape(title), desc=html.escape(desc), css=CSS, extra=extra, track=TRACK) + body, n
+    return HEAD.format(title=html.escape(title), desc=html.escape(desc), css=CSS, extra=extra, track=TRACK, posthog=POSTHOG) + body, n
 
 
 def main():
@@ -212,7 +214,7 @@ def main():
         (d / "index.html").write_text(page)
     items = "".join(f'<a href="/{s}/">{html.escape(m["name"])} <b>{counts[s]:,}</b></a>' for s, m in CITIES.items())
     home = HEAD.format(title="Legal Lots", desc="Every lot in your city where a cannabis shop is legal, and who owns it.",
-                       css=CSS, extra="", track=TRACK) + f"""<div class=wrap>
+                       css=CSS, extra="", track=TRACK, posthog=POSTHOG) + f"""<div class=wrap>
 <h1>Every lot in your city where a cannabis shop is legal, and who owns it.</h1>
 <p class=muted>For Minnesota licence holders still looking for a site. Pick your city.</p>
 <div class=cities>{items}</div>
