@@ -1,7 +1,7 @@
 # Legal Lots — who buys, and how to find them by name
 
 Researched 2026-10-10. Every claim carries its URL. Files cited as `data/raw/...` are in
-`/Users/aidan/Desktop/legal-lots/data/raw/`.
+`/Users/aidan/Desktop/workspace/legal-lots/data/raw/`.
 
 ## The answer first
 

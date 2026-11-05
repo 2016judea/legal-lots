@@ -72,7 +72,7 @@ def mailing(county, a):
 
 def retailers(city):
     """Licensed cannabis retailers in this city, from the bricks directory scrape."""
-    p = Path.home() / "Desktop/bricks/data/outreach/cannabis/mn_retailers.json"
+    p = Path.home() / "Desktop/workspace/bricks/data/outreach/cannabis/mn_retailers.json"
     rows = json.loads(p.read_text())
     rows = rows if isinstance(rows, list) else rows.get("retailers", [])
     want = city.replace("-", " ").lower()

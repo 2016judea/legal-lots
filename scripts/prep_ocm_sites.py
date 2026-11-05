@@ -78,7 +78,7 @@ def main():
     import duckdb
     con = duckdb.connect(); con.execute("install spatial; load spatial")
     for c in ("washington", "dakota", "hennepin", "scott", "ramsey"):
-        con.execute(f"attach '{Path.home() / 'Desktop/bricks/data' / (c + '_gis.duckdb')}' as {c} (read_only)")
+        con.execute(f"attach '{Path.home() / 'Desktop/workspace/bricks/data' / (c + '_gis.duckdb')}' as {c} (read_only)")
     for i, r in enumerate(rs):
         if i in pts:
             lon, lat, matched = pts[i]

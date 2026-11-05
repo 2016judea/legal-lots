@@ -54,7 +54,7 @@ geocoding. The SAMHSA file above stands in for it. Neither city buffers treatmen
 facilities, so this layer is context only.
 
 **Existing cannabis retailers.** Don't copy them, reuse
-`/Users/aidan/Desktop/bricks/data/outreach/cannabis/mn_retailers.json`: 248 OCM
+`/Users/aidan/Desktop/workspace/bricks/data/outreach/cannabis/mn_retailers.json`: 248 OCM
 retailers with `lat`/`lon` (WGS84), 24 in Minneapolis and 16 in Saint Paul. Neither
 city has a spacing rule. `MPLS/Existing_cannabis_retail` is a 2023 delta-9 snapshot
 and was not used.
